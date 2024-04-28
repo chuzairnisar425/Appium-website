@@ -42,6 +42,27 @@ var acc = document.getElementsByClassName("accordion");
       loader.style.display = 'none';
     });
   });
+
+  window.addEventListener('scroll', function() {
+    var button = document.querySelector('.gotopbtn');
+    var footer = document.querySelector('.footer');
+    
+    // Show the button when user scrolls
+    if (window.scrollY > 100) {
+      button.classList.add('show');
+    } else {
+      button.classList.remove('show');
+    }
+    
+    // Adjust the z-index of the button when it reaches the footer
+    var footerPosition = footer.getBoundingClientRect().top;
+    var windowHeight = window.innerHeight;
+    if (footerPosition < windowHeight) {
+      button.style.zIndex = '1000';
+    } else {
+      button.style.zIndex = '999';
+    }
+  });
   
   
 

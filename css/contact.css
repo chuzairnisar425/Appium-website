@@ -35,6 +35,8 @@
   transition: all 0.2s linear;
 }
 html {
+  scroll-behavior: smooth;
+
   overflow-x: hidden;
 }
 
@@ -269,7 +271,31 @@ width: 100%;
 .contactus{
     padding: 2rem 3rem;
     }
-
+    .gotopbtn {
+      font-size: 22px;
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: var(--green);
+      color: white;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      text-align: center;
+      line-height: 40px;
+      display: none;
+      z-index: 999;
+    }
+    
+    .gotopbtn.show {
+      display: block;
+    }
+    
+    .footer {
+      /* Your footer styles here */
+      position: relative;
+      z-index: 1;
+    }
 
     .loader-wrapper {
       position: fixed;
