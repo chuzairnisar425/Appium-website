@@ -786,6 +786,12 @@ rotate: 90deg;
       .welcome p {
         font-size: 15px;
       }
+      .welcome1 p{
+        font-size: 15px;
+      }
+      .welcome2 p{
+        font-size: 15px;
+      }
   .footer .box-container .box span {
     font-size: 15px;
   }
