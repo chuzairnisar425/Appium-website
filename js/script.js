@@ -25,7 +25,7 @@ var acc = document.getElementsByClassName("accordion");
         pannel.style.display = 'block'; // corrected the assignment
       }
     });
-    // Initially hide the panels
+    // Initially hide the pannels
     acc[i].nextElementSibling.style.display = 'none';
   }
 
@@ -62,6 +62,7 @@ var acc = document.getElementsByClassName("accordion");
       button.style.zIndex = '999';
     }
   });
+  
   
 
 
