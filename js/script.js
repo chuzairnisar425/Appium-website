@@ -12,7 +12,6 @@ window.onscroll = () => {
 };
 
 
-
 var acc = document.getElementsByClassName("accordion");
   var i;
   for (i = 0; i < acc.length; i++) {
@@ -64,8 +63,6 @@ var acc = document.getElementsByClassName("accordion");
     }
   });
   
-  
-
 
 
 var swiper = new Swiper(".home-slider", {
@@ -77,8 +74,6 @@ clickable: true,
     prevEl: ".swiper-button-prev",
   },
 });
-
-
 
 
   window.addEventListener('scroll', function() {
