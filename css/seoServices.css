@@ -779,6 +779,12 @@ rotate: 90deg;
 }
 
 @media (max-width: 768px) {
+  .details p{
+font-size: 10px;
+  }
+  .welcome p {
+    font-size: 15px;
+  }
   .footer .box-container .box span {
     font-size: 15px;
   }
