@@ -837,6 +837,27 @@ width: 100%;
 }
 
 @media (max-width: 768px) {
+
+  .welcome p {
+    font-size: 12px;
+  }
+  
+.howtoApply .content p{
+  font-size: 15px;
+}
+  .footer{
+    text-align: center;
+  }
+  .footer .box-container .box span {
+    font-size: 12px;
+  }
+  .footer .copyright{
+    font-size: 12px;
+  }
+  .follow h1 {
+    font-size: 20px;
+  }
+
   .footer .box-container .box span {
     font-size: 15px;
   }

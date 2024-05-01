@@ -844,7 +844,24 @@ p {
   }
 }
 
+
 @media (max-width: 768px) {
+  .home-about .content p {
+    font-size: 12px;
+  }
+  .ourteam .team-content{
+    font-size: 12px;
+  }
+
+  .footer .box-container .box span {
+    font-size: 12px;
+  }
+  .footer .copyright{
+    font-size: 12px;
+  }
+  .follow h1 {
+    font-size: 20px;
+  }
   .home .swiper-slide .content {
     width: 80%;
     display: inline-block;
@@ -944,6 +961,9 @@ p {
 
   .heading-title {
     font-size: 2rem;
+  }
+  .top-header .lefttopHeader ul{
+    font-size: 5px;
   }
 }
 

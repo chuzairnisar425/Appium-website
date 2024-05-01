@@ -697,6 +697,29 @@ width: 100%;
     }
     
     @media (max-width: 768px) {
+      .contactus p {
+        margin-top: 70px;
+        font-size: 12px;
+      }
+      .footer{
+        text-align: center;
+      }
+      .footer .box-container .box span {
+        font-size: 12px;
+      }
+      .footer .copyright{
+        font-size: 12px;
+      }
+      .follow h1 {
+        font-size: 20px;
+      }
+
+      .contactus .contact_form .flex .inputBox{
+        flex:1 0 400px;
+      }
+      .contactus .contact_form .flex .inputBox input{
+        width: 50%;
+      }
       .home .swiper-slide .content {
         width: 80%;
         display: inline-block;

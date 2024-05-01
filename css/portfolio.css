@@ -726,12 +726,19 @@ font-size: 25px;
 }
 
 @media (max-width: 768px) {
-  .footer .box-container .box span{
-    font-size: 16px;
+  .footer{
+    text-align: center;
   }
-  .footer .copyright {
-    font-size: 15px;
+  .footer .box-container .box span {
+    font-size: 12px;
   }
+  .footer .copyright{
+    font-size: 12px;
+  }
+  .follow h1 {
+    font-size: 20px;
+  }
+  
   .btn{
     padding: 10px 20px;
     font-size: 15px;
