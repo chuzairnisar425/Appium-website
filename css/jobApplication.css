@@ -623,6 +623,9 @@ background-color: var(--blue);
   }
   
   @media (max-width: 768px) {
+    .heading-title h1{
+      font-size: 8vw;
+    }
     .footer .box-container .box span {
       font-size: 15px;
     }

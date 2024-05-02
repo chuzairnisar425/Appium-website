@@ -758,7 +758,9 @@ rotate: 90deg;
 }
 
 @media (max-width: 768px) {
- 
+  .heading-title h1{
+    font-size: 8vw;
+  }
   .details p{
     font-size: 10px;
       }

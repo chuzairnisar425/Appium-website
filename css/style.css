@@ -1008,6 +1008,9 @@ font-size: 22px;
 }
 
 @media (max-width: 768px) {
+  .heading-title h1{
+    font-size: 8vw;
+  }
   .home-about .content p {
     font-size: 12px;
   }

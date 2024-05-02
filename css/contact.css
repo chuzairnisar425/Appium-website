@@ -699,6 +699,9 @@ width: 100%;
     }
     
     @media (max-width: 768px) {
+      .heading-title h1{
+        font-size: 8vw;
+      }
       .contactus p {
         margin-top: 70px;
         font-size: 12px;

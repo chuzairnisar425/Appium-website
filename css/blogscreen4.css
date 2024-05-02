@@ -556,6 +556,9 @@ font-size: 25px;
   }
   
   @media (max-width: 768px) {
+    .heading-title h1{
+      font-size: 8vw;
+    }
     .blogdetail .container .content{
       font-size: 12px;
     }

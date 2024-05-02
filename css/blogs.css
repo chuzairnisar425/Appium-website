@@ -703,6 +703,9 @@ section {
 }
 
 @media (max-width: 768px) {
+  .heading-title h1{
+    font-size: 8vw;
+  }
   .welcome .welcomeheading{
     font-size: 25px;
   }

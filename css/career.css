@@ -839,6 +839,12 @@ width: 100%;
 }
 
 @media (max-width: 768px) {
+  .heading-title h1{
+    font-size: 8vw;
+  }
+  .career-card .box-container .box {
+    margin-bottom: 130px;
+  }
 
   .welcome p {
     font-size: 12px;
