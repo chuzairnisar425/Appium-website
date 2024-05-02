@@ -123,6 +123,8 @@ width: 100%;
 .dropdown-menu a {
   display: block;
   padding: 10px 10px;
+  margin: 20px 20px;
+
   text-align: center;
   color: #333;
   text-decoration: none;
@@ -953,6 +955,9 @@ width: 100%;
   }
   .heading-title {
     font-size: 2rem;
+  }
+  .top-header .lefttopHeader ul{
+    font-size: 5px;
   }
 }
 

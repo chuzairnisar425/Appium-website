@@ -131,6 +131,8 @@ max-width: 100%;
   display: block;
   padding: 10px 10px;
   text-align: center;
+  margin: 20px 20px;
+
   color: #333;
   text-decoration: none;
 }
@@ -887,6 +889,9 @@ rotate: 90deg;
   }
   .heading-title {
     font-size: 2rem;
+  }
+  .top-header .lefttopHeader ul{
+    font-size: 5px;
   }
 }
 

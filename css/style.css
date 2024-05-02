@@ -160,6 +160,8 @@ width: 100%;
 .dropdown-menu a {
   display: block;
   padding: 10px 10px;
+  margin: 20px 20px;
+
   text-align: center;
   color: #333;
   text-decoration: none;
