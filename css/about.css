@@ -912,7 +912,7 @@ p {
     left: 0;
     right: 0;
     border-top: var(--border);
-    background-color: #333;
+    /* background-color: #333; */
 
     padding: 2rem;
     transition: 0.3s linear;
