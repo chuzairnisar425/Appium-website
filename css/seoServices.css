@@ -784,6 +784,9 @@ rotate: 90deg;
   .heading-title h1{
     font-size: 8vw;
   }
+  .career-card .box-container .box {
+    margin-bottom: 130px;
+  }
   .details p{
 font-size: 10px;
   }

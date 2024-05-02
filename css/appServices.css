@@ -758,6 +758,9 @@ rotate: 90deg;
 }
 
 @media (max-width: 768px) {
+  .career-card .box-container .box {
+    margin-bottom: 130px;
+  }
   .heading-title h1{
     font-size: 8vw;
   }
