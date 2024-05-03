@@ -56,14 +56,14 @@ section {
 /* header  */
 
 .top-header {
-  position: fixed;
+  /* position: fixed; */
   z-index: 99999999;
-  /* background-color: var(--black); */
-  background-color: rgba(0, 0, 0, 0.5); /* Adjust the transparency as needed */
 width: 100%;
-  color: var(--white);
+/* background-color: var(--black); */
+/* box-shadow: var(--box-shadow); */
+  color: var(--black);
   justify-content: space-between;
-
+width: 100%;
   align-items: center;
   display: flex;
 }
@@ -73,7 +73,7 @@ width: 100%;
   list-style: none;
 
   z-index: 99999999;
-  font-size: 23px;
+  font-size: 15px;
   display: flex;
 
   align-items: center;
@@ -90,10 +90,26 @@ width: 100%;
 }
 
 .righticons ul i {
-  font-size: 2.5rem;
-  color: var(--light-bg);
+  font-size: 2rem;
+  color: var(--light-black);
   cursor: pointer;
   margin-right: 2rem;
+}
+#menu-btn {
+  display: none;
+}
+
+/* Transparent background for navbar */
+.header {
+  /* position: sticky; */
+  top: 48px;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  display: flex;
+  padding: 1rem;
+background-color: var(--black);  align-items: center;
+  justify-content: space-between;
 }
 
 .dropdown {
@@ -118,9 +134,9 @@ width: 100%;
 
 .dropdown-menu a {
   display: block;
+  padding: 10px 10px;
   margin: 20px 20px;
 
-  padding: 10px 10px;
   text-align: center;
   color: #333;
   text-decoration: none;
@@ -134,22 +150,8 @@ width: 100%;
   display: block;
 }
 
-/* Transparent background for navbar */
-.header {
-  position: fixed;
-  top: 44px;
-  left: 0;
-  right: 0;
-  z-index: 1000;
-  display: flex;
-  padding: 1rem;
-  background-color: rgba(0, 0, 0, 0.5); /* Adjust the transparency as needed */
-  align-items: center;
-  justify-content: space-between;
-}
-#menu-btn{
-  display: none;
-}
+
+
 .header .logo {
   font-size: xx-large;
   color: rgb(6, 163, 111);
@@ -157,7 +159,7 @@ width: 100%;
   font-weight: bold;
 }
 .header a img{
-  width: 280px;
+  width: 150px;
 }
 
 .header .navbar {

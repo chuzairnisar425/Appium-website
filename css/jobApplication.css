@@ -87,14 +87,14 @@ section {
 /* header  */
 
 .top-header {
-  width: 100%;
-  /* position: sti; */
+  /* position: fixed; */
   z-index: 99999999;
-max-width: 100%;
-background-color: var(--blue);
-  color: var(--white);
+width: 100%;
+/* background-color: var(--black); */
+/* box-shadow: var(--box-shadow); */
+  color: var(--black);
   justify-content: space-between;
-
+width: 100%;
   align-items: center;
   display: flex;
 }
@@ -104,13 +104,45 @@ background-color: var(--blue);
   list-style: none;
 
   z-index: 99999999;
-  font-size: 23px;
+  font-size: 15px;
   display: flex;
 
   align-items: center;
   margin-top: 10px;
   margin-bottom: 10px;
 }
+
+.righticons ul {
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  display: flex;
+
+}
+
+.righticons ul i {
+  font-size: 2rem;
+  color: var(--light-black);
+  cursor: pointer;
+  margin-right: 2rem;
+}
+#menu-btn {
+  display: none;
+}
+
+/* Transparent background for navbar */
+.header {
+  /* position: sticky; */
+  top: 48px;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  display: flex;
+  padding: 1rem;
+background-color: var(--black);  align-items: center;
+  justify-content: space-between;
+}
+
 .dropdown {
   position: relative;
   display: inline-block;
@@ -149,37 +181,17 @@ background-color: var(--blue);
   display: block;
 }
 
-.righticons ul {
-  justify-content: center;
-  align-items: center;
-  list-style: none;
-  display: flex;
 
-}
 
-.righticons ul i {
-  font-size: 2.5rem;
-  color: var(--light-bg);
-  cursor: pointer;
-  margin-right: 2rem;
+.header .logo {
+  font-size: xx-large;
+  color: rgb(6, 163, 111);
+  text-decoration: none;
+  font-weight: bold;
 }
-
-#menu-btn{
-  display: none;
+.header a img{
+  width: 150px;
 }
-/* Transparent background for navbar */
-.header {
-  top: 48px;
-  left: 0;
-  right: 0;
-  z-index: 1000;
-  display: flex;
-  padding: 1rem;
-  align-items: center;
-  background-color: var(--blue);
-  justify-content: space-between;
-}
-
 
 /* jobApplication  */
 
@@ -295,9 +307,6 @@ background-color: var(--blue);
   color: rgb(6, 163, 111);
   text-decoration: none;
   font-weight: bold;
-}
-.header a img{
-  width: 280px;
 }
 
 .header .navbar {
