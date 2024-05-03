@@ -324,6 +324,7 @@ background-color: var(--black);  align-items: center;
 }
 
 .chooseService {
+  /* color:  ; */
   flex: 1; /* Take up one-fourth of the container */
   padding: 20px;
   background-color: #f0f0f0; /* Just for visualization */
