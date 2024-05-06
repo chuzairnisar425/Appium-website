@@ -274,7 +274,7 @@ font-size: 25px;
   align-items: center;
   justify-content: center;
   font-size: larger;
-  min-height: 100vh;
+  min-height: 150vh;
 }
 .heading-title {
   text-align: center;
