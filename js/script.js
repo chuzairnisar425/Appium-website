@@ -66,28 +66,39 @@ var acc = document.getElementsByClassName("accordion");
   
 
 
-var swiper = new Swiper(".home-slider", {
-  loop: true,
-clickable: true,
-  grabCursor:true,
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
-  },
-});
 
 
-  window.addEventListener('scroll', function() {
-    var header = document.querySelector('.header');
-    var homeSection = document.querySelector('.home-about');
 
-    if (window.scrollY > homeSection.offsetHeight) {
-      header.classList.add('scrolled');
-    } else {
-      header.classList.remove('scrolled');
+
+
+  document.addEventListener("DOMContentLoaded", function() {
+    const slides = document.querySelectorAll('.slide');
+    const timer = document.querySelector('.timer');
+    let currentIndex = 0;
+  
+    function showSlide(index) {
+      slides.forEach((slide, i) => {
+        slide.style.transform = `translateX(-${index * 100}%)`;
+      });
     }
+  
+    function updateTimer() {
+      timer.textContent = `Slide ${currentIndex + 1}/${slides.length}`;
+    }
+  
+    function nextSlide() {
+      currentIndex = (currentIndex + 1) % slides.length;
+      showSlide(currentIndex);
+      updateTimer();
+    }
+  
+    // Interval for automatic slide change (adjust duration as needed)
+    const interval = setInterval(nextSlide, 5000);
+  
+    // Initial display
+    showSlide(currentIndex);
+    updateTimer();
   });
-
-  
   
 
+ 
