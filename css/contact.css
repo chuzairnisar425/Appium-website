@@ -1,12 +1,4 @@
 
-
-
-
-
-
-
-
-
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 :root {
   --main-color: #8e44ad;
@@ -56,12 +48,12 @@ section {
 /* header  */
 
 .top-header {
-  /* position: fixed; */
+  position: fixed;
   z-index: 99999999;
 width: 100%;
-/* background-color: var(--black); */
+background-color: var(--black);
 /* box-shadow: var(--box-shadow); */
-  color: var(--black);
+  color: var(--white);
   justify-content: space-between;
 width: 100%;
   align-items: center;
@@ -91,7 +83,7 @@ width: 100%;
 
 .righticons ul i {
   font-size: 2rem;
-  color: var(--light-black);
+  color: var(--white);
   cursor: pointer;
   margin-right: 2rem;
 }
@@ -101,8 +93,8 @@ width: 100%;
 
 /* Transparent background for navbar */
 .header {
-  /* position: sticky; */
-  top: 48px;
+  position: fixed;
+  top: 32px;
   left: 0;
   right: 0;
   z-index: 1000;
@@ -121,24 +113,26 @@ background-color: var(--black);  align-items: center;
   /* padding: 10px; */
   text-decoration: none;
   color: #333;
+  /* min-width: 150px; */
 }
 
 .dropdown-menu {
   display: none;
   /* text-align: center; */
   position: absolute;
-  background-color:#22222216;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
+  background-color: var(--black);
 }
 
-.dropdown-menu a {
+.header .navbar .dropdown-menu a {
   display: block;
   padding: 10px 10px;
   margin: 20px 20px;
-
+font-size: 12px;
   text-align: center;
-  color: #333;
+  color: white;
+  max-width: 100%;
   text-decoration: none;
 }
 
@@ -167,24 +161,19 @@ background-color: var(--black);  align-items: center;
 }
 
 .header .navbar a {
-  font-family: poppins;
   margin-left: 20px;
   margin-right: 20px;
-
+  font-family: poppins;
+  /* margin-left: 2rem; */
   font-size: 20px;
   color: #fff; /* Navbar text color */
-  font-weight: bold;
+  
   text-decoration: none;
 }
 
 .header .navbar a:hover {
   border-bottom: 3px solid rgb(6, 163, 111);
   color: rgb(154, 114, 114);
-}
-
-/* Adjustments for the home section */
-.home {
-  padding: 0;
 }
 
 
@@ -229,7 +218,7 @@ background-color: var(--black);  align-items: center;
 }
 .contactus p{
   margin-top: 60px;
-  font-size: 25px;
+  font-size: 15px;
 }
 
 
@@ -401,7 +390,7 @@ background-color: var(--black);  align-items: center;
     
     }
     .contactus .contact_form .flex .inputBox {
-      flex: 1 0 751px;
+      flex: 1 0 690px;
     }
     .contactus .contact_form .flex .inputBox input {
       border: 2px solid black;
@@ -655,6 +644,7 @@ background-color: var(--black);  align-items: center;
       }
     
       .header {
+        top: 29px;
         font-size: small;
       }
     }
@@ -688,6 +678,7 @@ background-color: var(--black);  align-items: center;
     
     @media (max-width: 926px) {
       .header {
+        top: 22px;
         font-size: 20px;
       }
     
