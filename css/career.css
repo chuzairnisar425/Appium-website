@@ -655,6 +655,7 @@ font-size: 12px;
 
 
 .follow {
+  display: flex;
   text-align: center;
   color: var(--white);
   float: right;
@@ -662,7 +663,7 @@ font-size: 12px;
 }
 
 .follow h1 {
-  font-size: 45px;
+  font-size: 25px;
 }
 
 .follow .rightsideIcons {
@@ -673,10 +674,10 @@ font-size: 12px;
 }
 
 .follow .rightsideIcons i {
-  font-size: 2.5rem;
+  font-size: 25px;
   color: var(--light-bg);
   cursor: pointer;
-  margin-right: 2rem;
+  margin-right: 1rem;
 }
 
 
@@ -687,10 +688,10 @@ font-size: 12px;
 
 @media (max-width: 1580px) {
   .top-header{
-    justify-content: center;
+    /* justify-content: center; */
   }
   .top-header .lefttopHeader ul{
-    gap: 50px;
+    gap: 150px;
   }
   .heading {
     font-size: 30px;

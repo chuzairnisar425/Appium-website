@@ -506,6 +506,7 @@ font-size: 12px;
     
     
       .follow {
+        display: flex;
         text-align: center;
         color: var(--white);
         float: right;
@@ -513,7 +514,7 @@ font-size: 12px;
       }
     
       .follow h1 {
-        font-size: 45px;
+        font-size: 25px;
       }
     
       .follow .rightsideIcons {
