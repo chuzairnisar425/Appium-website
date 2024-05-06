@@ -39,6 +39,7 @@ html::-webkit-scrollbar-track {
 section {
   /* padding: 3rem 6rem; */
 }
+
 /* header  */
 
 .top-header {
@@ -169,6 +170,7 @@ font-size: 12px;
   border-bottom: 3px solid rgb(6, 163, 111);
   color: rgb(154, 114, 114);
 }
+
 
 .btn {
   margin-top: 1rem;
@@ -644,25 +646,27 @@ rotate: 90deg;
 }
 
 .follow {
+  display: flex;
   text-align: center;
   color: var(--white);
   float: right;
   margin-bottom: 20px;
 }
 .follow h1 {
-  font-size: 45px;
+  font-size: 25px;
 }
 .follow .rightsideIcons {
+
   justify-content: center;
   align-items: center;
   list-style: none;
   display: flex;
 }
 .follow .rightsideIcons i {
-  font-size: 2.5rem;
+  font-size:25px;
   color: var(--light-bg);
   cursor: pointer;
-  margin-right: 2rem;
+  margin-right: 1rem;
 }
 
 
@@ -675,10 +679,10 @@ rotate: 90deg;
 
 @media (max-width: 1580px) {
   .top-header{
-    justify-content: center;
+    /* justify-content: center; */
   }
   .top-header .lefttopHeader ul{
-    gap: 50px;
+    gap: 150px;
   }
   .heading {
     font-size: 30px;

@@ -173,6 +173,7 @@ font-size: 12px;
 
 
 
+
 .btn {
   margin-top: 1rem;
   display: inline-block;
@@ -418,13 +419,14 @@ font-size: 15px;
   }
   
   .follow {
+    display: flex;
     text-align: center;
     color: var(--white);
     float: right;
     margin-bottom: 20px;
   }
   .follow h1 {
-    font-size: 45px;
+    font-size: 25px;
   }
   .follow .rightsideIcons {
     justify-content: center;
@@ -433,10 +435,10 @@ font-size: 15px;
     display: flex;
   }
   .follow .rightsideIcons i {
-    font-size: 2.5rem;
+    font-size: 25px;
     color: var(--light-bg);
     cursor: pointer;
-    margin-right: 2rem;
+    margin-right: 1rem;
   }
   
   
@@ -449,10 +451,10 @@ font-size: 15px;
   
   @media (max-width: 1580px) {
     .top-header{
-      justify-content: center;
+      /* justify-content: center; */
     }
     .top-header .lefttopHeader ul{
-      gap: 50px;
+      gap: 150px;
     }
     .heading {
       font-size: 30px;
