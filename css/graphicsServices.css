@@ -832,7 +832,7 @@ rotate: 90deg;
     left: 0;
     right: 0;
     border-top: var(--border);
-    background-color: rgba(0, 0, 0, 0.181);
+    background-color: var(--black);
     padding: 2rem;
     transition: 0.3s linear;
     clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);

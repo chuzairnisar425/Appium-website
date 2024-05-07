@@ -274,7 +274,7 @@ font-size: 25px;
   align-items: center;
   justify-content: center;
   font-size: larger;
-  min-height: 150vh;
+  min-height: 100vh;
 }
 .heading-title {
   text-align: center;
@@ -650,12 +650,14 @@ font-size: 25px;
 }
 @media (max-width: 982px) {
   .header {
+    top: 33px;
     font-size: 20px;
   }
 }
 
 @media (max-width: 926px) {
   .header {
+    
     font-size: 20px;
   }
   .header .logo {
@@ -668,10 +670,15 @@ font-size: 25px;
 }
 
 @media (max-width: 768px) {
+  .header{
+    top: 32px;
+  }
+
   .heading-title h1{
     font-size: 8vw;
   }
   .footer{
+    margin-top: 20px;
     text-align: center;
   }
   .footer .box-container .box span {
@@ -785,15 +792,37 @@ font-size: 25px;
   }
   }
 
-  @media screen and (max-width: 570px) {
+@media (max-width: 570px) {
+  .content .comingsoon{
+    font-size: 15px
+  }
+  .heading-title h1{
+    font-size: 25px;
+  }
     .blog .content p{
       font-size: 13px;
     }
     }
 @media (max-width: 450px) {
+  .header{
+    top: 28px;
+  }
   html {
     font-size: 50%;
   }
+  .heading-title h1{
+    font-size: 20px;
+    margin-top: 24px;
+  }
+  .content p {
+    font-size: 15px;
+  }
+  .content input[type="email"] {
+    padding: 8px;
+    border: 1px solid #fff;
+    border-radius: 34px;
+    width: 60%;
+}
   .heading{
     font-size: 18px;
   }

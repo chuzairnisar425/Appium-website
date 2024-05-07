@@ -238,6 +238,7 @@ font-size: 12px;
   transform: translate(-50%, -50%);
   text-align: center;
   color: white;
+  width: 100%;
 }
 
 .overlay h1 {
@@ -478,27 +479,39 @@ font-size: 15px;
 }
 
 
-.home-sqa .box-container {
+
+
+.box-container {
+  padding: 1rem 1rem;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  grid-template-columns: repeat(auto-fit, minmax(27rem, 2fr));
-  /* gap: 20rem; */
-  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Adjust as needed */
 }
 
-.home-sqa .box-container .box {
-margin-right: 10px;
-margin-left: 10px;
-  width: max-content;
-  margin-top: 20px;
-  border-radius: 20px;
-  padding: 3rem 2rem;
-  text-align: center;
-  transition: 0.3s linear;
-  cursor: pointer;
-
+.box1 {
+  flex: 0 1 calc(50% - 20px); /* Adjust width as needed */
+  margin-bottom: 20px; /* Adjust spacing between boxes */
   background-color: var(--white);
+  padding: 20px;
+  border-radius: 10px;
+  transition: 0.3s linear;
+
+}
+.box1:hover{
+  box-shadow: 2px 2px 2px 2px black
+}
+.box1 h3{
+  text-align: center;
+  font-size: 25px;
+}
+.box1 p{
+text-align: justify;
+}
+
+@media (max-width: 768px) {
+  .box1 {
+    flex-basis: calc(100% - 20px); /* Adjust width for smaller screens */
+  }
 }
 
 .home-sqa .box-container .box h3 {
@@ -1014,20 +1027,37 @@ font-size: 25px;
 }
 
 
+.box-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Adjust as needed */
+}
+
+.box {
+  
+}
+
+@media (max-width: 768px) {
+  .box {
+    flex-basis: calc(100% - 20px); /* Adjust width for smaller screens */
+  }
+}
+
+
 /* Base styles */
 
 /* For screens smaller than 768px (e.g., phones) */
 @media (max-width: 767px) {
   .overlay h1 {
-    font-size: 28px;
+    font-size: 20px;
   }
 
   .overlay p {
-    font-size: 16px;
+    font-size: 15px;
   }
 
   .overlay button {
-    font-size: 16px;
+    font-size: 15px;
   }
 }
 
