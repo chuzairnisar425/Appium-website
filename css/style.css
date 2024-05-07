@@ -158,7 +158,7 @@ background-color: var(--black);  align-items: center;
 
 .header .navbar .dropdown-menu a {
   display: block;
-  padding: 10px 10px;
+  padding: 5px 5px;
   margin: 20px 20px;
 font-size: 12px;
   text-align: center;
@@ -208,12 +208,11 @@ font-size: 12px;
 }
 
 
-
-
-
 .slider-container {
-  position: relative;
+position: relative;
+  top: 110px; /* Adjust based on the combined height of both headers */
   width: 100%;
+  overflow: hidden;
 }
 
 .slider {
@@ -227,6 +226,7 @@ font-size: 12px;
 }
 
 .slide img {
+  background-size: cover;
   width: 100%;
   height: 100vh;
 }
@@ -427,13 +427,7 @@ padding: 2rem 2rem;
   background-color: var(--grey);
 
 }
-.header.scrolled .navbar a {
-  color: #000; /* Change to black */
-}
 
-.header.scrolled .dropdown-toggle {
-  color: #000; /* Change to black */
-}
 
 
 .home-sqa .row {
