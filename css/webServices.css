@@ -177,7 +177,7 @@ font-size: 12px;
   display: inline-block;
   background-color: var(--green);
   color: var(--white);
-  font-size: 1.3rem;
+  font-size: 15px;
   padding: 1rem 2rem;
   cursor: pointer;
   text-decoration: none;
@@ -270,6 +270,7 @@ font-size: 12px;
   justify-content: center;
   align-items: center;
   font-size: 25px;
+  padding: 1rem;
   font-weight: bold;
 }
 
@@ -719,7 +720,7 @@ rotate: 90deg;
 
 @media (max-width: 991px) {
   section {
-    padding: 3rem 2rem;
+    padding: 2rem 2rem;
   }
   .home .swiper-slide .content h3 {
     font-size: 25px;
@@ -759,6 +760,13 @@ rotate: 90deg;
 @media (max-width: 768px) {
   .heading {
     font-size: 18px;
+}
+.details i {
+  font-size: 15px;
+}
+.services
+{
+  display: none;
 }
   .heading-title h1{
     font-size: 8vw;

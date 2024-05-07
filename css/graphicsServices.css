@@ -177,7 +177,7 @@ font-size: 12px;
   display: inline-block;
   background-color: var(--green);
   color: var(--white);
-  font-size: 1.3rem;
+  font-size: 15px;
   padding: 1rem 2rem;
   cursor: pointer;
   text-decoration: none;
@@ -757,6 +757,9 @@ rotate: 90deg;
 }
 
 @media (max-width: 768px) {
+  .services{
+    display: none;
+  }
   .heading {
     font-size: 18px;
 }
