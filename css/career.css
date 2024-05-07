@@ -766,6 +766,9 @@ font-size: 12px;
 }
 
 @media (max-width: 768px) {
+  .header{
+    top: 33px;
+  }
   .heading-title h1{
     font-size: 8vw;
   }
@@ -880,6 +883,9 @@ font-size: 12px;
   }
 }
 @media (max-width: 450px) {
+  .header{
+    top: 29px;
+  }
   html {
     font-size: 50%;
   }

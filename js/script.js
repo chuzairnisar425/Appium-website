@@ -85,7 +85,7 @@ var acc = document.getElementsByClassName("accordion");
     }
   
     // Interval for automatic slide change (adjust duration as needed)
-    const interval = setInterval(nextSlide, 5000);
+    const interval = setInterval(nextSlide, 4000);
   
     // Initial display
     showSlide(currentIndex);
