@@ -63,15 +63,7 @@ var acc = document.getElementsByClassName("accordion");
     }
   });
   
-  
-
-
-
-
-
-
-
-  document.addEventListener("DOMContentLoaded", function() {
+    document.addEventListener("DOMContentLoaded", function() {
     const slides = document.querySelectorAll('.slide');
     const timer = document.querySelector('.timer');
     let currentIndex = 0;

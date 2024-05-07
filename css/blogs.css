@@ -176,7 +176,7 @@ font-size: 12px;
   display: inline-block;
   background-color: var(--green);
   color: var(--white);
-  font-size: 1.3rem;
+  font-size: 15px;
   padding: 1rem 2rem;
   cursor: pointer;
   text-decoration: none;
@@ -290,6 +290,8 @@ font-size: 12px;
   flex: 1 1 88rem;
   background-color: var(--grey);
 }
+.blog .content {
+text-align: center;}
 .blog .content .main {
   display: flex;
   justify-content: space-between;
@@ -299,11 +301,13 @@ font-size: 12px;
   padding: 0rem 1rem;
   font-size: 25px;
 
+  text-align: start ;
 }
 .blog .content p {
   padding: 0rem 1rem;
   line-height: 2rem;
   font-size: 15px;
+  text-align: justify;
 }
 
 .blog .row .content .righticons {
@@ -627,6 +631,9 @@ font-size: 12px;
 }
 
 @media (max-width: 768px) {
+  .header {
+    top: 33px;
+  }
   .heading-title h1{
     font-size: 8vw;
   }
@@ -678,6 +685,7 @@ font-size: 12px;
   .blog .content p{
     font-size: 15px;
   }
+  
   .heading-section-choose{
     padding: 5px 10px;
     font-size: 15px;
@@ -709,9 +717,9 @@ font-size: 12px;
     left: 0;
     right: 0;
     border-top: var(--border);
-    /* background-color: #333; */
+    background-color: var(--black);
 
-    padding: 2rem;
+    /* padding: 2rem; */
     transition: 0.3s linear;
     clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
     border-radius: 0.5rem;
@@ -753,7 +761,10 @@ font-size: 12px;
   .blog .content h2 {
     font-size: 16px;
   }
+  .header {
+    top: 65px;
   }
+}
 
   @media screen and (max-width: 570px) {
     .blog .content p{
@@ -769,6 +780,9 @@ font-size: 12px;
 @media (max-width: 450px) {
   html {
     font-size: 50%;
+  }
+  .header{
+    top: 25px;
   }
   .heading{
     font-size: 18px;
