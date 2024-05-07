@@ -241,7 +241,7 @@ font-size: 12px;
   color: var(--white);
   text-transform: uppercase;
   line-height: 1;
-  text-shadow: 4px 4px rgb(131, 110, 56);
+  /* text-shadow: 4px 4px rgb(131, 110, 56); */
   padding: 1rem;
   animation: fadeIn 0.4s linear backwards 0.4s;
 }

@@ -17,7 +17,7 @@
   --footer: #2f2e41;
   --border: 0.1rem solid var(--black);
   --box-shadow: 1px 1px 10px 1px rgb(29, 196, 29);
-  --text-shadow: 0 0.5rem 3rem rgba(0, 0, 0, 0.3);
+  /* --text-shadow: 0 0.5rem 3rem rgba(0, 0, 0, 0.3); */
 }
 * {
   font-family: "Poppins";

@@ -13,7 +13,7 @@
   --footer: #2f2e41;
   --border: 0.1rem solid var(--black);
   --box-shadow: 1px 1px 10px 1px rgb(29, 196, 29);
-  --text-shadow: 0 0.5rem 3rem rgba(0, 0, 0, 0.3);
+  /* --text-shadow: 0 0.5rem 3rem rgba(0, 0, 0, 0.3); */
 }
 * {
   font-family: "Poppins";
@@ -208,7 +208,7 @@ font-size: 12px;
   color: var(--white);
   text-transform: uppercase;
   line-height: 1;
-  text-shadow: 4px 4px rgb(131, 110, 56);
+  /* text-shadow: 4px 4px rgb(131, 110, 56); */
   padding: 1rem;
   animation: fadeIn 0.4s linear backwards 0.4s;
 }
