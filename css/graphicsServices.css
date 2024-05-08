@@ -758,6 +758,16 @@ rotate: 90deg;
 }
 
 @media (max-width: 768px) {
+  .details p {
+    font-size: 12px;
+    margin: 0; /* Remove default margin */
+  }
+  
+  .details i {
+  rotate: 90deg;
+    font-size: 12px;
+    /* Add styles for your icon */
+  }
   .blog .content h2{
     font-size: 20px;
   }

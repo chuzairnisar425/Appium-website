@@ -959,6 +959,16 @@ rotate: 90deg;
 
 
 @media screen and (max-width: 768px) {
+  .details p {
+    font-size: 12px;
+    margin: 0; /* Remove default margin */
+  }
+  
+  .details i {
+  rotate: 90deg;
+    font-size: 12px;
+    /* Add styles for your icon */
+  }
   .header .navbar {
     height: auto; /* Auto height to accommodate all links */
   }
