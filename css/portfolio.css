@@ -888,3 +888,30 @@ font-size: 25px;
     align-items: center;
   }
 }
+
+
+@media screen and (max-width: 768px) {
+  .header .navbar {
+    height: auto; /* Auto height to accommodate all links */
+  }
+
+  .header .navbar .dropdown-menu {
+    position: static; /* Change to static positioning */
+    display: none; /* Hide initially */
+    width: auto; /* Auto width */
+    margin-top: 10px; /* Add some margin for spacing */
+  }
+
+  .header .navbar .dropdown-menu a {
+    display: block;
+    padding: 10px;
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+  }
+
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+}

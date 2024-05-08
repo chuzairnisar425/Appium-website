@@ -673,6 +673,7 @@ rotate: 90deg;
 
 
 
+
 /* media queries  */
 
 /* media queries */
@@ -698,7 +699,7 @@ rotate: 90deg;
     font-size: 20px;
   }
   section {
-    padding: 3rem 5%;
+    padding: 1rem 2rem;
   }
 }
 
@@ -719,7 +720,7 @@ rotate: 90deg;
 
 @media (max-width: 991px) {
   section {
-    padding: 3rem 2rem;
+    padding: 1rem 2rem;
   }
   .home .swiper-slide .content h3 {
     font-size: 25px;
@@ -757,35 +758,47 @@ rotate: 90deg;
 }
 
 @media (max-width: 768px) {
-  .services{
-    display: none;
+  .blog .content h2{
+    font-size: 20px;
   }
   .heading {
-    font-size: 18px;
-}
+    font-size: 20px;
+  }
+  .header{
+    top: 33px;
+  }
   .heading-title h1{
     font-size: 8vw;
   }
   .career-card .box-container .box {
     margin-bottom: 130px;
   }
-  .details p{
-    font-size: 10px;
-      }
-      .welcome p {
-        font-size: 15px;
-      }
-      .welcome1 p{
-        font-size: 15px;
-      }
-      .welcome2 p{
-        font-size: 15px;
-      }
+
+  .welcome p {
+    font-size: 12px;
+  }
+  
+.howtoApply .content p{
+  font-size: 15px;
+}
+  .footer{
+    text-align: center;
+  }
+  .footer .box-container .box span {
+    font-size: 12px;
+  }
+  .footer .copyright{
+    font-size: 12px;
+  }
+  .follow h1 {
+    font-size: 20px;
+  }
+
   .footer .box-container .box span {
     font-size: 15px;
   }
   .footer .copyright{
-    font-size: 20px;
+    /* font-size: 20  px; */
   }
   .joinUs .box-container {
    display: flex;
@@ -807,6 +820,9 @@ rotate: 90deg;
   }
   .right-heading-choose{
     padding: 5px 10px;
+  }
+  .blog .content p{
+    font-size: 13px;
   }
   .rightText{
     font-size: 15px;
@@ -832,8 +848,8 @@ rotate: 90deg;
     left: 0;
     right: 0;
     border-top: var(--border);
-    background-color: var(--black);
     padding: 2rem;
+    background-color: var(--black);
     transition: 0.3s linear;
     clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
     border-radius: 0.5rem;
@@ -868,6 +884,12 @@ rotate: 90deg;
   }
 }
 @media (max-width: 450px) {
+  .blog .content p{
+    font-size: 12px;
+  }
+  .header{
+    top: 29px;
+  }
   html {
     font-size: 50%;
   }
@@ -933,5 +955,32 @@ rotate: 90deg;
   .right-links {
     flex-direction: column;
     align-items: center;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .header .navbar {
+    height: auto; /* Auto height to accommodate all links */
+  }
+
+  .header .navbar .dropdown-menu {
+    position: static; /* Change to static positioning */
+    display: none; /* Hide initially */
+    width: auto; /* Auto width */
+    margin-top: 10px; /* Add some margin for spacing */
+  }
+
+  .header .navbar .dropdown-menu a {
+    display: block;
+    padding: 10px;
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+  }
+
+  .dropdown:hover .dropdown-menu {
+    display: block;
   }
 }
