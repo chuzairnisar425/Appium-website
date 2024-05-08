@@ -908,3 +908,29 @@ text-align: center;}
     display: block;
   }
 }
+
+.loader {
+  border: 8px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 15px solid var(--green);
+  width: 85px;
+  height: 85px;
+  animation: spin 1s linear infinite; /* Changed timing function to linear for smoother rotation */
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg); /* Changed 0turn to 0deg for consistency */
+  }
+  to {
+    transform: rotate(360deg); /* Changed 1turn to 360deg for consistency */
+  }
+}
+
+/* Added some styling for the loader wrapper */
+.loader-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Adjust this according to your layout */
+}
