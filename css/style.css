@@ -581,7 +581,7 @@ text-align: justify;
 
 .heading-services {
   text-align: center;
-  font-size: 30px;
+  font-size: 25px;
   text-transform: capitalize;
   color: var(--white);
   width: 50%;
@@ -658,7 +658,7 @@ font-size: 15px;
 .experienceHeading p{
   color: var(--blue);
   max-width: 100%;
-  font-size: 30px;
+  font-size: 20px;
   text-align: center;
 }
 
@@ -954,7 +954,7 @@ font-size: 25px;
   }
 
   section {
-    padding: 3rem 5%;
+    padding: 0rem 2rem;
   }
 }
 
@@ -979,7 +979,7 @@ font-size: 25px;
 
 @media (max-width: 991px) {
   section {
-    padding: 3rem 2rem;
+    padding: 1rem 2rem;
   }
   
 .home .swiper-slide .content {
@@ -1032,10 +1032,21 @@ font-size: 25px;
 }
 
 @media (max-width: 768px) {
+  .container .appointmentcontent{
+    margin-left: 0px;
+  }
+  .heading {
+    font-size: 20px;
+  }
+  .services .line{
+    width: 50%;
+  }
   .box {
     flex-basis: calc(100% - 20px); /* Adjust width for smaller screens */
   }
 }
+
+
 
 
 /* Base styles */

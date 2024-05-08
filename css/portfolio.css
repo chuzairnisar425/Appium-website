@@ -566,13 +566,14 @@ font-size: 25px;
 }
 
 .follow {
+  display: flex;
   text-align: center;
   color: var(--white);
   float: right;
   margin-bottom: 20px;
 }
 .follow h1 {
-  font-size: 45px;
+  font-size: 25px;
 }
 .follow .rightsideIcons {
   justify-content: center;
@@ -581,10 +582,10 @@ font-size: 25px;
   display: flex;
 }
 .follow .rightsideIcons i {
-  font-size: 2.5rem;
+  font-size: 25px;
   color: var(--light-bg);
   cursor: pointer;
-  margin-right: 2rem;
+  margin-right: 1rem;
 }
 
 
@@ -678,7 +679,7 @@ font-size: 25px;
     font-size: 8vw;
   }
   .footer{
-    margin-top: 20px;
+    /* margin-top: 20px; */
     text-align: center;
   }
   .footer .box-container .box span {

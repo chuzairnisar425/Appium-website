@@ -707,7 +707,7 @@ font-size: 12px;
     font-size: 20px;
   }
   section {
-    padding: 3rem 5%;
+    padding: 1rem 2rem;
   }
 }
 
@@ -766,6 +766,9 @@ font-size: 12px;
 }
 
 @media (max-width: 768px) {
+  .heading {
+    font-size: 20px;
+  }
   .header{
     top: 33px;
   }
