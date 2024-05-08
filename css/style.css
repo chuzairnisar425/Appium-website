@@ -160,7 +160,7 @@ background-color: var(--black);  align-items: center;
   display: block;
   padding: 5px 5px;
   margin: 20px 20px;
-font-size: 12px;
+font-size: 15px;
   text-align: center;
   color: white;
   max-width: 100%;
@@ -456,7 +456,7 @@ padding: 2rem 2rem;
  
   padding: 2rem 3rem;
   text-align: justify;
-border-left: 12px solid var(--green);
+border-left: 15px solid var(--green);
   flex: 1 1 46rem;
   
   /* margin-bottom: 150px; */
@@ -503,6 +503,9 @@ text-align: justify;
 }
 
 @media (max-width: 768px) {
+  .home-about .row .image img {
+    margin-top: 30px;
+  }
   .box1 {
     flex-basis: calc(100% - 20px); /* Adjust width for smaller screens */
   }
@@ -1103,23 +1106,28 @@ font-size: 25px;
 
 
 @media (max-width: 768px) {
+  .heading-section-choose .btn{
+    font-size: 13px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
   .heading-title h1{
     font-size: 8vw;
   }
   .home-about .content p {
-    font-size: 12px;
+    font-size: 15px;
   }
   .home-sqa .content p{
-    font-size: 12px;
+    font-size: 15px;
   }
   .home-buisness .row .content p{
-    font-size: 12px;
+    font-size: 15px;
   }
   .footer .box-container .box span {
-    font-size: 12px;
+    font-size: 15px;
   }
   .footer .copyright{
-    font-size: 12px;
+    font-size: 15px;
   }
   .follow h1 {
     font-size: 20px;
