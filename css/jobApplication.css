@@ -507,6 +507,52 @@ font-size: 12px;
   
   
   
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .user-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .row {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .input-group {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input[type="file"],
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* For smaller screens */
+  @media (max-width: 768px) {
+    .row {
+      flex-direction: column;
+    }
+  }
   
   
   /* media queries  */
@@ -515,10 +561,10 @@ font-size: 12px;
   
   @media (max-width: 1580px) {
     .top-header{
-      justify-content: center;
+      /* justify-content: center; */
     }
     .top-header .lefttopHeader ul{
-      gap: 50px;
+      gap: 150px;
     }
     .heading {
       font-size: 30px;

@@ -176,10 +176,17 @@ font-size: 12px;
 /* Overlay and content styles */
 .overlay {
   position: absolute;
-  top: 40%;
+  top: 0;
   left: 0;
   width: 100%;
   height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Change the last value (0.5) to adjust the opacity */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white; /* Text color */
+  text-align: center;
  
  
 }
@@ -192,7 +199,7 @@ font-size: 12px;
 /* Additional styling for the paragraph, input field, and button */
 .content p {
   font-size: 18px;
-
+padding: 0rem 2rem;
   margin-bottom: 20px;
 }
 .content .comingsoon{
@@ -598,11 +605,9 @@ font-size: 25px;
 
 @media (max-width: 1580px) {
   .top-header{
-    justify-content: center;
   }
   .top-header .lefttopHeader ul{
-    gap: 50px;
-  }
+    gap: 150px;}
   .heading {
     font-size: 30px;
   }
@@ -671,6 +676,9 @@ font-size: 25px;
 }
 
 @media (max-width: 768px) {
+  .overlay{
+    margin-top: 100px;
+  }
   .header{
     top: 32px;
   }

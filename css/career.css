@@ -174,7 +174,9 @@ font-size: 12px;
   
 
 .btn {
-  margin-top: 1rem;
+  margin: 0 auto ;
+/* max-width: 100%; */
+  /* margin-top: 1rem; */
   display: inline-block;
   background-color: var(--green);
   color: var(--white);
@@ -230,9 +232,9 @@ font-size: 12px;
 }
 
 .career-card .box-container .box {
-  margin-top: -132px;
+  text-align: center;
   border-radius: 10px;
-  padding: 3rem 2rem;
+  padding: 1rem 2rem;
   text-align: center;
   transition: 0.3s linear;
   cursor: pointer;
@@ -376,8 +378,8 @@ font-size: 12px;
   width: calc(100% - 2rem); /* Adjust width to fit two boxes in a row */
   margin: 1rem; /* Add margin between boxes */
   border-radius: 10px;
-  padding: 3rem 2rem;
-  text-align: justify;
+  padding: 1rem 2rem;
+  text-align: center;
   transition: 0.3s linear;
   cursor: pointer;
   background-color: var(--white);
@@ -396,10 +398,12 @@ font-size: 12px;
 .joinUs .box-container .box h3 {
   color: var(--blue);
   font-size: 25px;
+  text-align: start;
   padding-top: 1rem;
 }
 
 .joinUs .box-container .box p {
+  text-align: justify;
   font-size: 1rem;
   line-height: 1.8;
 }
@@ -468,7 +472,7 @@ font-size: 12px;
 }
 
 .footer {
-  margin-top: 40px;
+  /* margin-top: 40px; */
   background-color: var(--footer);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(20px);
@@ -573,16 +577,7 @@ font-size: 12px;
 .textfields {
   width: 100%;
 }
-.contactus .contact_form .flex .inputBox span {
-  font-size: 1.6rem;
-  color: var(--light-black);
-}
 
-.contactus .contact_form .btn {
-  margin: 0px auto;
-  text-align: center;
-  width: 150px;
-}
 
 
 /* footer for all pagess */
@@ -682,6 +677,7 @@ font-size: 12px;
 
 
 
+
 /* media queries  */
 
 /* media queries */
@@ -728,7 +724,7 @@ font-size: 12px;
 
 @media (max-width: 991px) {
   section {
-    padding: 3rem 2rem;
+    padding: 1rem 2rem;
   }
   .home .swiper-slide .content h3 {
     font-size: 25px;
@@ -766,6 +762,20 @@ font-size: 12px;
 }
 
 @media (max-width: 768px) {
+
+  .details p {
+    font-size: 12px;
+    margin: 0; /* Remove default margin */
+  }
+  
+  .details i {
+  rotate: 90deg;
+    font-size: 12px;
+    /* Add styles for your icon */
+  }
+  .blog .content h2{
+    font-size: 20px;
+  }
   .heading {
     font-size: 20px;
   }
@@ -803,7 +813,7 @@ font-size: 12px;
     font-size: 15px;
   }
   .footer .copyright{
-    font-size: 15px;
+    /* font-size: 20  px; */
   }
   .joinUs .box-container {
    display: flex;
@@ -815,39 +825,19 @@ font-size: 12px;
     font-size: 15px;
     padding: 10px 20px;
   }
-  .joinUs .box-container .box p {
-    font-size: 15px;
-  }
+ 
   .joinUs .box-container .box h3 {
-    font-size: 18px;
+    font-size: 28px;
   }
-  .box-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around; /* Adjust as needed */
-  }
-  
-  .box {
-    width: 300px; /* Adjust the width of each box as needed */
-    padding: 20px;
-    margin-bottom: 20px;
-    border: 1px solid #ccc;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .btn {
-    margin-top: auto; /* Aligns the button to the bottom of the box */
-  }
-  
-
   .heading-section-choose{
     padding: 5px 10px;
     font-size: 15px;
   }
   .right-heading-choose{
     padding: 5px 10px;
+  }
+  .blog .content p{
+    font-size: 13px;
   }
   .rightText{
     font-size: 15px;
@@ -909,6 +899,9 @@ font-size: 12px;
   }
 }
 @media (max-width: 450px) {
+  .blog .content p{
+    font-size: 12px;
+  }
   .header{
     top: 29px;
   }
@@ -1006,7 +999,6 @@ font-size: 12px;
     display: block;
   }
 }
-
 .loader {
   border: 8px solid #f3f3f3;
   border-radius: 50%;
