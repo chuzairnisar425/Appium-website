@@ -210,6 +210,7 @@ font-size: 15px;
 
 
 .slider-container {
+  background-color: ;
 position: relative;
   top: 110px; /* Adjust based on the combined height of both headers */
   width: 100%;
@@ -227,6 +228,7 @@ position: relative;
 }
 
 .slide img {
+  
   background-size: cover;
   width: 100%;
   height: 100vh;
@@ -235,6 +237,7 @@ position: relative;
 .overlay {
   position: absolute;
   top: 50%;
+
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
@@ -246,6 +249,33 @@ position: relative;
   font-size: 32px;
   margin-bottom: 20px;
 }
+
+
+
+.bottomServices {
+  text-align: center;
+  display: flex;
+  flex-direction: row; /* Initially set to flex row */
+}
+
+.right-heading-choose,
+.heading-section-choose {
+  width: 50%; /* Set both sections to occupy 50% width */
+}
+
+@media only screen and (max-width: 768px) {
+  .bottomServices {
+    flex-direction: column; /* Change to flex column on screens smaller than 768px */
+  }
+
+  .right-heading-choose,
+  .heading-section-choose {
+    text-align: center;
+    width: 100%; /* Set both sections to occupy 100% width on smaller screens */
+  }
+}
+
+
 
 .overlay p {
   font-size: 18px;
@@ -455,7 +485,7 @@ padding: 2rem 2rem;
 
 .home-sqa .content {
  
-  padding: 2rem 3rem;
+  padding: 0rem 3rem;
   text-align: justify;
 border-left: 15px solid var(--green);
   flex: 1 1 46rem;
@@ -602,7 +632,7 @@ text-align: justify;
   align-items: center;
   gap: 10px;
   margin-top: 40px;
-  margin-bottom: 40px;
+  /* margin-bottom: 40px; */
 }
 
 .heading-section-choose {

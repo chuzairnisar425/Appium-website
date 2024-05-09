@@ -815,10 +815,33 @@ font-size: 12px;
     font-size: 15px;
     padding: 10px 20px;
   }
- 
-  .joinUs .box-container .box h3 {
-    font-size: 28px;
+  .joinUs .box-container .box p {
+    font-size: 15px;
   }
+  .joinUs .box-container .box h3 {
+    font-size: 18px;
+  }
+  .box-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /* Adjust as needed */
+  }
+  
+  .box {
+    width: 300px; /* Adjust the width of each box as needed */
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .btn {
+    margin-top: auto; /* Aligns the button to the bottom of the box */
+  }
+  
+
   .heading-section-choose{
     padding: 5px 10px;
     font-size: 15px;
