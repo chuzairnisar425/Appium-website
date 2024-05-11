@@ -494,8 +494,9 @@ border-left: 12px solid var(--green);
   /* margin-bottom: 150px; */
 }
 
-.home-sqa .content h2{
+.home-sqa .content h2{  
   font-size: 25px;
+  text-align: center;
 color: var(--blue);
 }
 
@@ -714,6 +715,7 @@ font-size: 12px;
   font-size: 24px;
 }
 .upperHeading h2{
+  text-align: center;
 font-size: 25px;
 }
 
