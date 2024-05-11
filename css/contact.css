@@ -65,7 +65,7 @@ width: 100%;
   list-style: none;
 
   z-index: 99999999;
-  font-size: 15px;
+  font-size: 12px;
   display: flex;
 
   align-items: center;
@@ -185,7 +185,7 @@ font-size: 12px;
   display: inline-block;
   background-color: var(--green);
   color: var(--white);
-  font-size: 15px;
+  font-size: 12px;
   padding: 1rem 2rem;
   cursor: pointer;
   text-decoration: none;
@@ -218,7 +218,7 @@ font-size: 12px;
 }
 .contactus p{
   margin-top: 60px;
-  font-size: 15px;
+  font-size: 12px;
 }
 
 
@@ -306,7 +306,7 @@ font-size: 12px;
     .loader {
       border: 8px solid #f3f3f3;
       border-radius: 50%;
-      border-top: 15px solid var(--green);
+      border-top: 12px solid var(--green);
       width: 85px;
       height: 85px;
       animation: spin ease infinite;
@@ -338,7 +338,7 @@ font-size: 12px;
     
     .footer .box-container p {
       text-align: start;
-      font-size: 15px;
+      font-size: 12px;
       color: var(--white);
       padding-bottom: 1rem;
     }
@@ -349,7 +349,7 @@ font-size: 12px;
     }
     .footer .box-container .box span {
       color: var(--light-bg);
-      font-size: 15px;
+      font-size: 12px;
       padding-bottom: 1.5rem;
       display: block;
       text-decoration: none;
@@ -391,7 +391,7 @@ font-size: 12px;
     
     }
     .contactus .contact_form .flex .inputBox {
-      flex: 1 0 690px;
+      flex: 1 0 586px;
     }
     .contactus .contact_form .flex .inputBox input {
       border: 2px solid black;
@@ -470,7 +470,7 @@ font-size: 12px;
     
       .footer .box-container .box span {
         color: var(--light-bg);
-        font-size: 15px;
+        font-size: 12px;
         padding-bottom: 1.5rem;
         display: block;
         text-decoration: none;
@@ -491,7 +491,7 @@ font-size: 12px;
         padding: 2rem 2rem;
         margin-top: 3rem;
         border-top: 0.1rem solid var(--light-bg);
-        font-size: 15px;
+        font-size: 12px;
         color: var(--white);
       }
     
@@ -677,6 +677,9 @@ font-size: 12px;
   }
   
   @media (max-width: 768px) {
+    .contactus .contact_form .flex .inputBox {
+      flex: 1 0 286px;
+    }
     .top-header{
       display: none;
     }
@@ -705,7 +708,7 @@ font-size: 12px;
     }
     
   .howtoApply .content p{
-    font-size: 15px;
+    font-size: 12px;
   }
     .footer{
       text-align: center;
@@ -721,11 +724,9 @@ font-size: 12px;
     }
   
     .footer .box-container .box span {
-      font-size: 15px;
+      font-size: 12px;
     }
-    .footer .copyright{
-      font-size: 20px;
-    }
+   
     .joinUs .box-container {
      display: flex;
     flex-direction: column;
@@ -733,7 +734,7 @@ font-size: 12px;
    
     }
     .btn{
-      font-size: 15px;
+      font-size: 12px;
       padding: 10px 20px;
     }
    
@@ -742,13 +743,13 @@ font-size: 12px;
     }
     .heading-section-choose{
       padding: 5px 10px;
-      font-size: 15px;
+      font-size: 12px;
     }
     .right-heading-choose{
       padding: 5px 10px;
     }
     .rightText{
-      font-size: 15px;
+      font-size: 12px;
     }
     .top-header .lefttopHeader ul{
      font-size: xx-small;
@@ -895,7 +896,7 @@ font-size: 12px;
     .header .navbar .dropdown-menu a {
       display: block;
       padding: 10px;
-      font-size: 15px;
+      font-size: 12px;
       text-align: center;
       color: white;
       text-decoration: none;
@@ -909,7 +910,7 @@ font-size: 12px;
   .loader {
     border: 8px solid #f3f3f3;
     border-radius: 50%;
-    border-top: 15px solid var(--green);
+    border-top: 12px solid var(--green);
     width: 85px;
     height: 85px;
     animation: spin 1s linear infinite; /* Changed timing function to linear for smoother rotation */

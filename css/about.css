@@ -63,7 +63,7 @@ width: 100%;
   list-style: none;
 
   z-index: 99999999;
-  font-size: 15px;
+  font-size: 12px;
   display: flex;
 
   align-items: center;
@@ -183,7 +183,7 @@ font-size: 12px;
   display: inline-block;
   background-color: var(--green);
   color: var(--white);
-  font-size: 15px;
+  font-size: 12px;
   padding: 1rem 2rem;
   cursor: pointer;
   text-decoration: none;
@@ -235,6 +235,18 @@ font-size: 12px;
     opacity: 0;
   }
 }
+.home-about{
+  margin-top: 20px;
+}
+.home-about .heading-section{
+  width: 50%;
+  float: right;
+  /* border-radius: 20px; */
+  background-color: var(--blue);
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  margin-bottom: 40px;
+}
 
 .home-about .row {
   /* margin-top: 20px; */
@@ -266,9 +278,11 @@ font-size: 12px;
 }
 .home-about .content p {
   line-height: 2rem;
-  font-size: 15px;
+  font-size: 12px;
   text-align: justify;
 }
+
+
 
 
 .home-about .box-container {
@@ -293,7 +307,7 @@ font-size: 12px;
   padding-top: 1rem;
 }
 .home-about .box-container .box p {
-  font-size: 15px;
+  font-size: 12px;
   color: black;
   line-height: 1.8;
 }
@@ -316,7 +330,7 @@ font-size: 12px;
   text-align: center;
   font-size: 25px;
   text-transform: capitalize;
-  color: var(--white);
+  color: var(--black );
 }
 .heading span {
   margin-left: 7px;
@@ -328,7 +342,7 @@ font-size: 12px;
 }
 .ourteam .team-content {
   width: 100%;
-  font-size: 15px;
+  font-size: 12px;
   text-align: justify;
   padding: 0 2rem;
 }
@@ -453,7 +467,7 @@ p {
 .pannel p {
   text-align: justify;
   color: rgba(0, 0, 0, 0.7);
-  font-size: 15px;
+  font-size: 12px;
 }
 .pannel p ul li{
   font-size: 25px;
@@ -509,7 +523,7 @@ p {
 .loader {
   border: 8px solid #f3f3f3;
   border-radius: 50%;
-  border-top: 15px solid var(--green);
+  border-top: 12px solid var(--green);
   width: 85px;
   height: 85px;
   animation: spin ease infinite;
@@ -557,7 +571,7 @@ p {
 }
 .footer .box-container .box span {
   color: var(--light-bg);
-  font-size: 15px;
+  font-size: 12px;
   padding-bottom: 1.5rem;
   display: block;
   text-decoration: none;
@@ -577,7 +591,7 @@ p {
   padding-top: 3rem;
   margin-top: 3rem;
   border-top: 0.1rem solid var(--light-bg);
-  font-size: 15px;
+  font-size: 12px;
   color: var(--white);
 }
 .footer .copyright a {
@@ -857,7 +871,7 @@ p {
     }
     
   .howtoApply .content p{
-    font-size: 15px;
+    font-size: 12px;
   }
     .footer{
       text-align: center;
@@ -873,11 +887,9 @@ p {
     }
   
     .footer .box-container .box span {
-      font-size: 15px;
+      font-size: 12px;
     }
-    .footer .copyright{
-      font-size: 20px;
-    }
+   
     .joinUs .box-container {
      display: flex;
     flex-direction: column;
@@ -885,7 +897,7 @@ p {
    
     }
     .btn{
-      font-size: 15px;
+      font-size: 12px;
       padding: 10px 20px;
     }
    
@@ -894,13 +906,13 @@ p {
     }
     .heading-section-choose{
       padding: 5px 10px;
-      font-size: 15px;
+      font-size: 12px;
     }
     .right-heading-choose{
       padding: 5px 10px;
     }
     .rightText{
-      font-size: 15px;
+      font-size: 12px;
     }
     .top-header .lefttopHeader ul{
      font-size: xx-small;
@@ -939,7 +951,7 @@ p {
       text-align: center;
       border-radius: 0.5rem;
     }
-  
+
     .home-about .box-container .box img {
       width: 150px;
       height: 100px;
@@ -1047,7 +1059,7 @@ p {
     .header .navbar .dropdown-menu a {
       display: block;
       padding: 10px;
-      font-size: 15px;
+      font-size: 12px;
       text-align: center;
       color: white;
       text-decoration: none;
@@ -1061,7 +1073,7 @@ p {
   .loader {
     border: 8px solid #f3f3f3;
     border-radius: 50%;
-    border-top: 15px solid var(--green);
+    border-top: 12px solid var(--green);
     width: 85px;
     height: 85px;
     animation: spin 1s linear infinite; /* Changed timing function to linear for smoother rotation */

@@ -60,7 +60,7 @@ width: 100%;
   list-style: none;
 
   z-index: 99999999;
-  font-size: 15px;
+  font-size: 12px;
   display: flex;
 
   align-items: center;
@@ -89,7 +89,7 @@ width: 100%;
 /* Transparent background for navbar */
 .header {
   position: fixed;
-  top: 43px;
+  top: 36px;
   left: 0;
   right: 0;
   z-index: 1000;
@@ -177,7 +177,7 @@ font-size: 12px;
   display: inline-block;
   background-color: var(--green);
   color: var(--white);
-  font-size: 15px;
+  font-size: 12px;
   padding: 1rem 2rem;
   cursor: pointer;
   text-decoration: none;
@@ -252,7 +252,7 @@ font-size: 12px;
   border: 3px solid var(--green);
 }
 .career-card .box-container .box p {
-  font-size: 15px;
+  font-size: 12px;
   color: black;
   line-height: 1.8;
 }
@@ -275,27 +275,32 @@ font-size: 12px;
 }
 
 .welcome p {
-  border-left: 15px solid var(--green);
+  border-left: 12px solid var(--green);
   margin-top: 10px;
   text-align: justify;
-  font-size: 1.welcome1 p5px;
+  font-size: 12px;
+  line-height: 2.2rem;
   padding-left: 3rem ;
   padding-right: 3rem ;
   margin-bottom: 20px;
 }
 .welcome1 p {
-  border-right: 15px solid var(--green);
+  border-right: 12px solid var(--green);
   margin-top: 10px;
   text-align: justify;
-  font-size: 15px;
+  line-height: 2.2rem;
+
+  font-size: 12px;
   padding-left: 3rem ;
   padding-right: 3rem ;
   /* margin-bottom: 20px; */
 }
 .welcome2 p {
+  line-height: 2.2rem;
+
   margin-top: 10px;
   text-align: justify;
-  font-size: 15px;
+  font-size: 12px;
   padding-left: 3rem ;
   padding-right: 3rem ;
   /* margin-bottom: 20px; */
@@ -417,7 +422,7 @@ p {
 
 .images-container {
   padding: 1rem 1rem;
-  border-right: 15px solid var(--green);
+  border-right: 12px solid var(--green);
   display: flex;
   flex-wrap: wrap; /* Allows wrapping on smaller screens */
   gap: 20px; /* Gap between the images */
@@ -476,7 +481,7 @@ rotate: 90deg;
 .loader {
   border: 8px solid #f3f3f3;
   border-radius: 50%;
-  border-top: 15px solid var(--green);
+  border-top: 12px solid var(--green);
   width: 85px;
   height: 85px;
   animation: spin 1s linear infinite; /* Changed timing function to linear for smoother rotation */
@@ -563,7 +568,7 @@ rotate: 90deg;
 }
 .footer .box-container .box span {
   color: var(--light-bg);
-  font-size: 15px;
+  font-size: 12px;
   padding-bottom: 1.5rem;
   display: block;
   text-decoration: none;
@@ -583,7 +588,7 @@ rotate: 90deg;
   padding-top: 3rem;
   margin-top: 3rem;
   border-top: 0.1rem solid var(--light-bg);
-  font-size: 15px;
+  font-size: 12px;
   color: var(--white);
 }
 .footer .copyright a {
@@ -764,9 +769,9 @@ rotate: 90deg;
   
   @media (max-width: 768px) {
     .details p{
-      font-size: 15px;
+      font-size: 12px;
     } .details i{
-      font-size: 15px;
+      font-size: 12px;
     }
     .services{
       display: none;
@@ -799,7 +804,7 @@ rotate: 90deg;
     }
     
   .howtoApply .content p{
-    font-size: 15px;
+    font-size: 12px;
   }
     .footer{
       text-align: center;
@@ -815,11 +820,9 @@ rotate: 90deg;
     }
   
     .footer .box-container .box span {
-      font-size: 15px;
+      font-size: 12px;
     }
-    .footer .copyright{
-      font-size: 20px;
-    }
+   
     .joinUs .box-container {
      display: flex;
     flex-direction: column;
@@ -827,7 +830,7 @@ rotate: 90deg;
    
     }
     .btn{
-      font-size: 15px;
+      font-size: 12px;
       padding: 10px 20px;
     }
    
@@ -836,13 +839,13 @@ rotate: 90deg;
     }
     .heading-section-choose{
       padding: 5px 10px;
-      font-size: 15px;
+      font-size: 12px;
     }
     .right-heading-choose{
       padding: 5px 10px;
     }
     .rightText{
-      font-size: 15px;
+      font-size: 12px;
     }
     .top-header .lefttopHeader ul{
      font-size: xx-small;
@@ -989,7 +992,7 @@ rotate: 90deg;
     .header .navbar .dropdown-menu a {
       display: block;
       padding: 10px;
-      font-size: 15px;
+      font-size: 12px;
       text-align: center;
       color: white;
       text-decoration: none;
@@ -1003,7 +1006,7 @@ rotate: 90deg;
   .loader {
     border: 8px solid #f3f3f3;
     border-radius: 50%;
-    border-top: 15px solid var(--green);
+    border-top: 12px solid var(--green);
     width: 85px;
     height: 85px;
     animation: spin 1s linear infinite; /* Changed timing function to linear for smoother rotation */

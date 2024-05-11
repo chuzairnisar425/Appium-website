@@ -60,7 +60,7 @@ width: 100%;
   list-style: none;
 
   z-index: 99999999;
-  font-size: 15px;
+  font-size: 12px;
   display: flex;
 
   align-items: center;
@@ -89,7 +89,7 @@ width: 100%;
 /* Transparent background for navbar */
 .header {
   position: fixed;
-  top: 43px;
+  top: 36px;
   left: 0;
   right: 0;
   z-index: 1000;
@@ -179,7 +179,7 @@ font-size: 12px;
   display: inline-block;
   background-color: var(--green);
   color: var(--white);
-  font-size: 15px;
+  font-size: 12px;
   padding: 1rem 2rem;
   cursor: pointer;
   text-decoration: none;
@@ -237,14 +237,13 @@ font-size: 12px;
     width: 50%;
 }
 .blogdetail .container .content{
-  
+  font-size: 12px;
   text-align:justify;
   margin-bottom: 20px;
   margin-top: 20px;
+  line-height: 2.2rem;
 }
-.blogdetail .container .content {
-font-size: 15px;
-}
+
 
 .gotopbtn {
   font-size: 22px;
@@ -287,7 +286,7 @@ font-size: 15px;
 .loader {
   border: 8px solid #f3f3f3;
   border-radius: 50%;
-  border-top: 15px solid var(--green);
+  border-top: 12px solid var(--green);
   width: 85px;
   height: 85px;
   animation: spin ease infinite;
@@ -330,7 +329,7 @@ font-size: 15px;
   }
   .footer .box-container .box span {
     color: var(--light-bg);
-    font-size: 15px;
+    font-size: 12px;
     padding-bottom: 1.5rem;
     display: block;
     text-decoration: none;
@@ -350,7 +349,7 @@ font-size: 15px;
     padding-top: 3rem;
     margin-top: 3rem;
     border-top: 0.1rem solid var(--light-bg);
-    font-size: 15px;
+    font-size: 12px;
     color: var(--white);
   }
   .footer .copyright a {
@@ -440,8 +439,6 @@ font-size: 15px;
     cursor: pointer;
     margin-right: 1rem;
   }
-  
-  
   
   
   
@@ -559,7 +556,7 @@ font-size: 15px;
     }
     
   .howtoApply .content p{
-    font-size: 15px;
+    font-size: 12px;
   }
     .footer{
       text-align: center;
@@ -575,7 +572,7 @@ font-size: 15px;
     }
   
     .footer .box-container .box span {
-      font-size: 15px;
+      font-size: 12px;
     }
     .footer .copyright{
       font-size: 20px;
@@ -587,7 +584,7 @@ font-size: 15px;
    
     }
     .btn{
-      font-size: 15px;
+      font-size: 12px;
       padding: 10px 20px;
     }
    
@@ -596,13 +593,13 @@ font-size: 15px;
     }
     .heading-section-choose{
       padding: 5px 10px;
-      font-size: 15px;
+      font-size: 12px;
     }
     .right-heading-choose{
       padding: 5px 10px;
     }
     .rightText{
-      font-size: 15px;
+      font-size: 12px;
     }
     .top-header .lefttopHeader ul{
      font-size: xx-small;
@@ -749,7 +746,7 @@ font-size: 15px;
     .header .navbar .dropdown-menu a {
       display: block;
       padding: 10px;
-      font-size: 15px;
+      font-size: 12px;
       text-align: center;
       color: white;
       text-decoration: none;
@@ -763,7 +760,7 @@ font-size: 15px;
   .loader {
     border: 8px solid #f3f3f3;
     border-radius: 50%;
-    border-top: 15px solid var(--green);
+    border-top: 12px solid var(--green);
     width: 85px;
     height: 85px;
     animation: spin 1s linear infinite; /* Changed timing function to linear for smoother rotation */

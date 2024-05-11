@@ -61,7 +61,7 @@ width: 100%;
   list-style: none;
 
   z-index: 99999999;
-  font-size: 15px;
+  font-size: 12px;
   display: flex;
 
   align-items: center;
@@ -90,7 +90,7 @@ width: 100%;
 /* Transparent background for navbar */
 .header {
   position: fixed;
-  top: 43px;
+  top: 36px;
   left: 0;
   right: 0;
   z-index: 1000;
@@ -180,7 +180,7 @@ font-size: 12px;
   display: inline-block;
   background-color: var(--green);
   color: var(--white);
-  font-size: 15px;
+  font-size: 12px;
   padding: 1rem 2rem;
   cursor: pointer;
   text-decoration: none;
@@ -250,7 +250,7 @@ font-size: 12px;
   padding-top: 1rem;
 }
 .career-card .box-container .box p {
-  font-size: 15px;
+  font-size: 12px;
   color: black;
   line-height: 1.8;
 }
@@ -274,10 +274,10 @@ font-size: 12px;
 
 .welcome p {
   padding: 0 2rem;  
-  margin-top: 2px;
-  margin-bottom: 2px;
+  margin-top: 30px;
+  margin-bottom: 30px;
   text-align: justify;
-  font-size: 15px;
+  font-size: 12px;
 }
 .line{
   width: 60%;
@@ -335,7 +335,7 @@ font-size: 12px;
   flex: 1 1 41rem;
 }
 .howtoApply .content p{
-  font-size: 15px;
+  font-size: 12px;
 }
 
 /* Join us section  */
@@ -404,7 +404,7 @@ font-size: 12px;
 
 .joinUs .box-container .box p {
   text-align: justify;
-  font-size: 1rem;
+  font-size: 12px;
   line-height: 1.8;
 }
 .joinUs .box-container .box .btn a {
@@ -460,7 +460,7 @@ font-size: 12px;
 .loader {
   border: 8px solid #f3f3f3;
   border-radius: 50%;
-  border-top: 15px solid var(--green);
+  border-top: 12px solid var(--green);
   width: 85px;
   height: 85px;
   animation: spin ease infinite;
@@ -501,7 +501,7 @@ font-size: 12px;
 }
 .footer .box-container .box span {
   color: var(--light-bg);
-  font-size: 15px;
+  font-size: 12px;
   padding-bottom: 1.5rem;
   display: block;
   text-decoration: none;
@@ -521,7 +521,7 @@ font-size: 12px;
   padding-top: 3rem;
   margin-top: 3rem;
   border-top: 0.1rem solid var(--light-bg);
-  font-size: 15px;
+  font-size: 12px;
   color: var(--white);
 }
 .footer .copyright a {
@@ -791,7 +791,7 @@ font-size: 12px;
     }
     
   .howtoApply .content p{
-    font-size: 15px;
+    font-size: 12px;
   }
     .footer{
       text-align: center;
@@ -807,11 +807,9 @@ font-size: 12px;
     }
   
     .footer .box-container .box span {
-      font-size: 15px;
+      font-size: 12px;
     }
-    .footer .copyright{
-      font-size: 20px;
-    }
+   
     .joinUs .box-container {
      display: flex;
     flex-direction: column;
@@ -819,7 +817,7 @@ font-size: 12px;
    
     }
     .btn{
-      font-size: 15px;
+      font-size: 12px;
       padding: 10px 20px;
     }
    
@@ -828,13 +826,13 @@ font-size: 12px;
     }
     .heading-section-choose{
       padding: 5px 10px;
-      font-size: 15px;
+      font-size: 12px;
     }
     .right-heading-choose{
       padding: 5px 10px;
     }
     .rightText{
-      font-size: 15px;
+      font-size: 12px;
     }
     .top-header .lefttopHeader ul{
      font-size: xx-small;
@@ -981,7 +979,7 @@ font-size: 12px;
     .header .navbar .dropdown-menu a {
       display: block;
       padding: 10px;
-      font-size: 15px;
+      font-size: 12px;
       text-align: center;
       color: white;
       text-decoration: none;
@@ -995,7 +993,7 @@ font-size: 12px;
   .loader {
     border: 8px solid #f3f3f3;
     border-radius: 50%;
-    border-top: 15px solid var(--green);
+    border-top: 12px solid var(--green);
     width: 85px;
     height: 85px;
     animation: spin 1s linear infinite; /* Changed timing function to linear for smoother rotation */

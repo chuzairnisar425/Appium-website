@@ -60,7 +60,7 @@ width: 100%;
   list-style: none;
 
   z-index: 99999999;
-  font-size: 15px;
+  font-size: 12px;
   display: flex;
 
   align-items: center;
@@ -89,7 +89,7 @@ width: 100%;
 /* Transparent background for navbar */
 .header {
   position: fixed;
-  top: 43px;
+  top: 36px;
   left: 0;
   right: 0;
   z-index: 1000;
@@ -192,6 +192,7 @@ font-size: 12px;
 }
 
 .content {
+  width: 100%;
   text-align: center;
   color: #fff;
 }
@@ -221,7 +222,7 @@ font-size: 25px;
 }
 
 .content input[type="email"] {
-  padding: 15px;
+  padding: 12px;
   border: 1px solid #fff;
   border-radius: 42px;
   width: 40%;
@@ -252,7 +253,7 @@ font-size: 25px;
   display: inline-block;
   background-color: var(--green);
   color: var(--white);
-  font-size: 15px;
+  font-size: 12px;
   padding: 1rem 2rem;
   cursor: pointer;
   text-decoration: none;
@@ -362,7 +363,7 @@ font-size: 25px;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 15px 9px;
+  padding: 12px 9px;
   float: right;
   background-color: var(--black);
   color: var(--white);
@@ -383,7 +384,7 @@ font-size: 25px;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 15px 5px;
+  padding: 12px 5px;
 }
 
 .postingblogtime .iconscontent {
@@ -442,7 +443,7 @@ font-size: 25px;
 .loader {
   border: 8px solid #f3f3f3;
   border-radius: 50%;
-  border-top: 15px solid var(--green);
+  border-top: 12px solid var(--green);
   width: 85px;
   height: 85px;
   animation: spin ease infinite;
@@ -484,7 +485,7 @@ font-size: 25px;
 }
 .footer .box-container .box span {
   color: var(--light-bg);
-  font-size: 15px;
+  font-size: 12px;
   padding-bottom: 1.5rem;
   display: block;
   text-decoration: none;
@@ -504,7 +505,7 @@ font-size: 25px;
   padding-top: 3rem;
   margin-top: 3rem;
   border-top: 0.1rem solid var(--light-bg);
-  font-size: 15px;
+  font-size: 12px;
   color: var(--white);
 }
 .footer .copyright a {
@@ -701,6 +702,7 @@ font-size: 25px;
     }
    
     .heading-title h1{
+      margin-top: 36px;
       font-size: 8vw;
     }
     .career-card .box-container .box {
@@ -712,7 +714,7 @@ font-size: 25px;
     }
     
   .howtoApply .content p{
-    font-size: 15px;
+    font-size: 12px;
   }
     .footer{
       text-align: center;
@@ -728,19 +730,16 @@ font-size: 25px;
     }
   
     .footer .box-container .box span {
-      font-size: 15px;
+      font-size: 12px;
     }
-    .footer .copyright{
-      font-size: 20px;
-    }
-    .joinUs .box-container {
+       .joinUs .box-container {
      display: flex;
     flex-direction: column;
     padding: 0rem 0rem;
    
     }
     .btn{
-      font-size: 15px;
+      font-size: 12px;
       padding: 10px 20px;
     }
    
@@ -749,13 +748,13 @@ font-size: 25px;
     }
     .heading-section-choose{
       padding: 5px 10px;
-      font-size: 15px;
+      font-size: 12px;
     }
     .right-heading-choose{
       padding: 5px 10px;
     }
     .rightText{
-      font-size: 15px;
+      font-size: 12px;
     }
     .top-header .lefttopHeader ul{
      font-size: xx-small;
@@ -800,15 +799,7 @@ font-size: 25px;
       height: 100px;
     }
   
-    .home .swiper-slide .content h3 {
-      font-size: 5vw;
-    }
-    .home .swiper-slide .content span {
-      font-size: 3vw;
-    }
-    .home .swiper-slide .content .btn {
-      font-size: 1rem;
-    }
+  
     .heading-section-sqa {
       width: 78%;
     }
@@ -902,7 +893,7 @@ font-size: 25px;
     .header .navbar .dropdown-menu a {
       display: block;
       padding: 10px;
-      font-size: 15px;
+      font-size: 12px;
       text-align: center;
       color: white;
       text-decoration: none;
@@ -916,7 +907,7 @@ font-size: 25px;
   .loader {
     border: 8px solid #f3f3f3;
     border-radius: 50%;
-    border-top: 15px solid var(--green);
+    border-top: 12px solid var(--green);
     width: 85px;
     height: 85px;
     animation: spin 1s linear infinite; /* Changed timing function to linear for smoother rotation */
