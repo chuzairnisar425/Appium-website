@@ -37,10 +37,9 @@ html::-webkit-scrollbar {
 html::-webkit-scrollbar-track {
   background-color: var(--white);
 }
-section {
+/* section {
   margin-top: 10px;
   /* padding: 3rem 6rem */
-}
 
 
 
@@ -238,7 +237,7 @@ font-size: 12px;
 }
 
 .home-about .row {
-  margin-top: 20px;
+  /* margin-top: 20px; */
   display: flex;
   align-items: center;
   flex-wrap: wrap;
@@ -520,6 +519,11 @@ p {
   from { transform: rotate(0turn); }
   to { transform: rotate(1turn); }
 }
+
+
+
+
+
 
 
 /* footer for all pagess */
@@ -825,15 +829,22 @@ p {
   }
   
   @media (max-width: 768px) {
+    .top-header{
+      display: none;
+    }
+    .header{
+      top: 0;
+    }
+    section{
+      top: 0;
+    }
     .blog .content h2{
       font-size: 20px;
     }
     .heading {
       font-size: 20px;
     }
-    .header{
-      top: 22px;
-    }
+   
     .heading-title h1{
       font-size: 8vw;
     }
@@ -948,9 +959,7 @@ p {
     }
   }
   @media (max-width: 450px) {
-    .header{
-      top: 29px;
-    }
+   
     html {
       font-size: 50%;
     }
