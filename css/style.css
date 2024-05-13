@@ -45,7 +45,7 @@ html::-webkit-scrollbar-track {
 
 section {
   /* padding: 3rem 6rem; */
-  padding-top: 20px;
+  /* padding-top: 20px; */
 }
 
 
@@ -654,8 +654,8 @@ text-align: start;
   float: left;
   /* border-radius: 20px; */
   background-color: var(--blue);
-  border-top-right-radius: 40px;
-  border-bottom-right-radius: 40px;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
 }
 .services .line{
   width: 30%;
@@ -678,8 +678,8 @@ font-size: 12px;
 }
 .right-heading-choose {
 
-  border-top-left-radius: 40px;
-  border-bottom-left-radius: 40px;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
   padding: 30px 30px;
   background-color: var(--green);
 }
