@@ -988,7 +988,7 @@ p {
       font-size: 5px;
     }
     .home-about .row .image {
-      flex: 1 0 48rem;
+      flex: 1 0 39rem;
       padding: 1rem;
     }
     
@@ -1005,7 +1005,7 @@ p {
       padding: 2rem 3rem;
       text-align: justify;
     
-      flex: 1 0 48rem;
+      flex: 1 0 39rem;
     }
 
   }
