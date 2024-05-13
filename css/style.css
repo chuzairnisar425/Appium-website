@@ -851,7 +851,15 @@ font-size: 25px;
   display: block;
   text-decoration: none;
 }
-
+.footer .box-container .box span a{
+  color: var(--light-bg);
+  text-decoration: none;
+}
+.footer .box-container .box span a:hover{
+  text-decoration: none;
+  font-weight:bold;
+  transition: font-weight 0.3s, transform 0.3s;
+}
 .footer .box-container .box a i {
   padding-right: 0.5rem;
   color: rgb(6, 163, 111);

@@ -272,6 +272,15 @@ font-size: 12px;
   font-size: 25px;
   font-weight: bold;
 }
+.footer .box-container .box span a{
+  color: var(--light-bg);
+  text-decoration: none;
+}
+.footer .box-container .box span a:hover{
+  text-decoration: none;
+  font-weight:bold;
+  transition: font-weight 0.3s, transform 0.3s;
+}
 
 .welcome p {
   line-height: 2.2rem;

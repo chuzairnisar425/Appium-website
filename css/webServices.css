@@ -662,6 +662,15 @@ rotate: 90deg;
   float: right;
   margin-bottom: 20px;
 }
+.footer .box-container .box span a{
+  color: var(--light-bg);
+  text-decoration: none;
+}
+.footer .box-container .box span a:hover{
+  text-decoration: none;
+  font-weight:bold;
+  transition: font-weight 0.3s, transform 0.3s;
+}
 .follow h1 {
   font-size: 25px;
 }

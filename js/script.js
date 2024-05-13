@@ -75,13 +75,13 @@ var acc = document.getElementsByClassName("accordion");
     }
   
     function updateTimer() {
-      timer.textContent = `Slide ${currentIndex + 1}/${slides.length}`;
+      // timer.textContent = `Slide ${currentIndex + 1}/${slides.length}`;
     }
   
     function nextSlide() {
       currentIndex = (currentIndex + 1) % slides.length;
       showSlide(currentIndex);
-      updateTimer();
+      // updateTimer();
     }
   
     // Interval for automatic slide change (adjust duration as needed)
@@ -89,7 +89,7 @@ var acc = document.getElementsByClassName("accordion");
   
     // Initial display
     showSlide(currentIndex);
-    updateTimer();
+    // updateTimer();
   });
   
 

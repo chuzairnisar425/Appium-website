@@ -354,6 +354,15 @@ font-size: 12px;
   color: var(--white);
   border-radius: 10px;
 }
+.footer .box-container .box span a{
+  color: var(--light-bg);
+  text-decoration: none;
+}
+.footer .box-container .box span a:hover{
+  text-decoration: none;
+  font-weight:bold;
+  transition: font-weight 0.3s, transform 0.3s;
+}
 .chooseService p a:hover{
   color: yellowgreen;
   font-weight: bold;
