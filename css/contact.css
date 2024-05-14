@@ -194,11 +194,32 @@ font-size: 12px;
 .btn:hover {
   background-color: rgb(6, 163, 111);
 }
+/* Appointment form  */
+.container{
 
+  display: grid;
+ grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+ gap: 1.5rem;
+
+ border-radius: 20px;
+ /* width: 50%; */
+ /* border: 2px solid red;  */
+}
+.container h3{
+ color: var(--white);
+ font-size: 2rem;
+ /* padding-bottom: 1rem; */
+}
+.container .map{
+ display:flex;
+ justify-content: center;
+ align-items: c;
+ 
+}
  
 /* home-about section  */
 .heading-section {
-  width: 50%;
+  width: 70%;
   float: right;
   /* border-radius: 20px; */
   background-color: var(--blue);
@@ -217,6 +238,7 @@ font-size: 12px;
   color: var(--green);
 }
 .contactus p{
+  padding: 0rem 2rem;
   margin-top: 60px;
   font-size: 12px;
 }
@@ -262,7 +284,7 @@ font-size: 12px;
 }
 
 .contactus{
-    padding: 2rem 3rem;
+    padding: 2rem 0rem;
     }
     .gotopbtn {
       font-size: 22px;
@@ -821,6 +843,14 @@ font-size: 12px;
     }
   }
   @media (max-width: 450px) {
+
+    
+
+.contactus .contact_form .flex .inputBox textarea {
+   
+    margin-top: 3.5rem;
+  
+}
    
     html {
       font-size: 50%;

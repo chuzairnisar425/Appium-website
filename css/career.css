@@ -348,6 +348,28 @@ section {
   padding: 1rem;
 }
 
+/* Appointment form  */
+.container{
+
+  display: grid;
+ grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+ gap: 1.5rem;
+
+ border-radius: 20px;
+ /* width: 50%; */
+ /* border: 2px solid red;  */
+}
+.container h3{
+ color: var(--white);
+ font-size: 2rem;
+ /* padding-bottom: 1rem; */
+}
+.container .map{
+ display:flex;
+ justify-content: center;
+ align-items: c;
+ 
+}
 .howtoApply .row .image img {
   height: 70%;
   width: 70%;
@@ -816,7 +838,7 @@ font-size: 17px;
   }
 
   section {
-    padding: 1rem 2rem;
+    padding: 1rem 0rem;
   }
 }
 
@@ -839,7 +861,7 @@ font-size: 17px;
 
 @media (max-width: 991px) {
   section {
-    padding: 1rem 2rem;
+    padding: 1rem 0rem;
   }
 
   .home .swiper-slide .content h3 {

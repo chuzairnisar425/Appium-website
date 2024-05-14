@@ -593,7 +593,28 @@ rotate: 90deg;
   color: rgb(6, 163, 111);
   text-decoration: none;
 }
+/* Appointment form  */
+.container{
 
+  display: grid;
+ grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+ gap: 1.5rem;
+
+ border-radius: 20px;
+ /* width: 50%; */
+ /* border: 2px solid red;  */
+}
+.container h3{
+ color: var(--white);
+ font-size: 2rem;
+ /* padding-bottom: 1rem; */
+}
+.container .map{
+ display:flex;
+ justify-content: center;
+ align-items: c;
+ 
+}
 .footer .copyright .rightCopyright {
   float: right;
 }
@@ -801,6 +822,8 @@ font-size: 17px;
   }
   
   @media (max-width: 768px) {
+    .heading-section {
+      width: 70%;}
     .welcome p {
       font-size: 12px;
     } .welcome1 p {

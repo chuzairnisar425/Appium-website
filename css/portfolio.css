@@ -491,6 +491,28 @@ font-size: 25px;
   text-decoration: none;
 }
 
+/* Appointment form  */
+.container{
+
+  display: grid;
+ grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+ gap: 1.5rem;
+
+ border-radius: 20px;
+ /* width: 50%; */
+ /* border: 2px solid red;  */
+}
+.container h3{
+ color: var(--white);
+ font-size: 2rem;
+ /* padding-bottom: 1rem; */
+}
+.container .map{
+ display:flex;
+ justify-content: center;
+ align-items: c;
+ 
+}
 .footer .box-container .box a i {
   padding-right: 0.5rem;
   color: rgb(6, 163, 111);

@@ -622,6 +622,28 @@ rotate: 90deg;
   text-transform: none;
   border-radius: 4px;
 }
+/* Appointment form  */
+.container{
+
+  display: grid;
+ grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+ gap: 1.5rem;
+
+ border-radius: 20px;
+ /* width: 50%; */
+ /* border: 2px solid red;  */
+}
+.container h3{
+ color: var(--white);
+ font-size: 2rem;
+ /* padding-bottom: 1rem; */
+}
+.container .map{
+ display:flex;
+ justify-content: center;
+ align-items: c;
+ 
+}
 
 .booking .book_form .flex .inputBox textarea {
   display: block;
@@ -802,6 +824,8 @@ font-size: 17px;
   }
   
   @media (max-width: 768px) {
+    .heading-section {
+      width: 70%;}
     .welcome p {
       font-size: 12px;
     } .welcome1 p {

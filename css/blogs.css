@@ -507,6 +507,28 @@ text-align: center;}
 .footer .box-container .box a:hover i {
   padding-right: 2rem;
 }
+/* Appointment form  */
+.container{
+
+  display: grid;
+ grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+ gap: 1.5rem;
+
+ border-radius: 20px;
+ /* width: 50%; */
+ /* border: 2px solid red;  */
+}
+.container h3{
+ color: var(--white);
+ font-size: 2rem;
+ /* padding-bottom: 1rem; */
+}
+.container .map{
+ display:flex;
+ justify-content: center;
+ align-items: c;
+ 
+}
 
 .footer .copyright {
   text-align: start;

@@ -16,9 +16,7 @@
   --box-shadow: 1px 1px 10px 1px rgb(29, 196, 29);
   --text-shadow: 0 0.5rem 3rem rgba(0, 0, 0, 0.3);
 }
-.header.scrolled {
-  background-color: black;
-} 
+
 * {
   font-family: "Poppins";
   margin: 0;
@@ -893,8 +891,66 @@ font-size: 25px;
   float: right;
 }
 
+/* Appointment form  */
+.container{
 
+  display: grid;
+ grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+ gap: 1.5rem;
 
+ border-radius: 20px;
+ /* width: 50%; */
+ /* border: 2px solid red;  */
+}
+.container h3{
+ color: var(--white);
+ font-size: 2rem;
+ /* padding-bottom: 1rem; */
+}
+.container .map{
+ display:flex;
+ justify-content: center;
+ align-items: c;
+ 
+}
+
+  /* for desktop */
+  .whatsapp_float {
+    position:fixed;
+    width:80px;
+    height:80px;
+    bottom:40px;
+    right:40px;
+    background-color:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+          font-size:30px;
+    box-shadow: 2px 2px 3px #999;
+          z-index:100;
+  }
+  
+  .whatsapp_float i {
+    margin-top:10px;
+    font-size: 60px;
+  }
+  /* for mobile */
+  @media screen and (max-width: 767px){
+       .whatsapp-icon {
+     margin-top:10px;
+       }
+      .whatsapp_float {
+          width: 50px;
+          height: 50px;
+          bottom: 20px;
+          right: 10px;
+          font-size: 22px;
+      }
+      .whatsapp_float i{
+        margin-top:8px;
+        font-size: 30px;
+      }
+  }
 .follow {
   display: flex;
   text-align: center;
@@ -1076,7 +1132,6 @@ font-size: 25px;
 
 @media (max-width: 1200px) {
   .top-header {
-    
     justify-content: start;
   }
 
@@ -1085,9 +1140,7 @@ font-size: 25px;
     font-size: 20px;
   }
 
-  section {
-    padding: 0rem 2rem;
-  }
+ 
 }
 
 @media (max-width: 1073px) {
@@ -1110,9 +1163,9 @@ font-size: 25px;
 
 
 @media (max-width: 991px) {
-  section {
-    padding: 1rem 2rem;
-  }
+  /* section {
+    padding: 1rem 0rem;
+  } */
   
 .home .swiper-slide .content {
   width: 60%;
