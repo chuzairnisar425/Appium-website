@@ -614,6 +614,17 @@ font-size: 25px;
   /* media queries  */
 
   /* media queries */
+  @media (max-width: 1900px) {
+    .footer .box-container .box span a {
+      font-size: 17px;
+    }
+    .footer .box-container .box span  {
+      font-size: 17px;
+    } 
+    .top-header .lefttopHeader ul {
+      font-size: 17px;
+    }
+  }
   
   @media (max-width: 1580px) {
     .top-header{

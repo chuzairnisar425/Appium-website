@@ -779,6 +779,36 @@ p {
 
   /* media queries */
   
+
+
+  @media (max-width: 1900px) {
+ 
+
+    .top-header .lefttopHeader ul {
+      gap: 150px;
+      font-size: 17px;
+    }
+  
+  .home-about .content p{
+    font-size: 17px;
+  }
+  .home-about .box-container .box p{
+    font-size: 17px;
+  }
+  .ourteam .team-content{
+    font-size: 17px;
+  }
+  .pannel p{
+    font-size: 17px;
+  }
+  .footer .box-container .box span{
+    font-size: 17px;
+  }
+  .footer .box-container .box span a{
+    font-size: 17px;
+  }
+}
+
   @media (max-width: 1580px) {
     .top-header{
       /* justify-content: center; */

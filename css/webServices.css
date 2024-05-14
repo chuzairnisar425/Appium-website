@@ -697,6 +697,31 @@ rotate: 90deg;
 
   /* media queries */
   
+  @media (max-width: 1900px) {
+    .details p {
+      font-size: 17px;
+    }
+    .top-header .lefttopHeader ul {
+      font-size: 17px;
+    }
+    .footer .box-container .box span a {
+      font-size: 17px;
+    }
+    .footer .box-container .box span  {
+font-size: 17px;
+    }
+    .career-card .box-container .box p {
+      font-size: 17px;
+    }
+    .welcome p {
+      font-size: 17px;
+    } .welcome1 p {
+      font-size: 17px;
+    } .welcome2 p {
+      font-size: 17px;
+    }
+  }
+
   @media (max-width: 1580px) {
     .top-header{
       /* justify-content: center; */
@@ -777,6 +802,13 @@ rotate: 90deg;
   }
   
   @media (max-width: 768px) {
+    .welcome p {
+      font-size: 12px;
+    } .welcome1 p {
+      font-size: 12px;
+    } .welcome2 p {
+      font-size: 12px;
+    }
     .details p{
       font-size: 12px;
     } .details i{

@@ -473,6 +473,9 @@ padding: 2rem 2rem;
 }
 
 .home-sqa .row .image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   flex: 1 1 45rem;
   padding: 1rem;
 }
@@ -985,16 +988,90 @@ font-size: 25px;
 
 /* media queries */
 
+
+@media (max-width: 1900px) {
+ 
+
+  .top-header .lefttopHeader ul {
+    gap: 150px;
+    font-size: 17px;
+  }
+
+.home-about .content p{
+  font-size: 17px;
+}
+.home-about .box-container .box p{
+  font-size: 17px;
+}
+.home-sqa .content p{
+  font-size: 17px;
+}
+.services .box-container .box p{
+  font-size: 17px;  
+}
+.leftText {
+  font-size: 17px;
+  
+}
+.home-buisness .row .content p {
+  font-size: 17px;
+}
+.home-buisness .box-container .box p{
+  font-size: 17px;
+}
+.footer .box-container .box span a{
+  font-size: 17px;
+}.footer .box-container .box span {
+  font-size: 17px;
+}
+
+  .heading {
+    font-size: 30px;
+  
+}
+}
+
+
 @media (max-width: 1580px) {
  
 
   .top-header .lefttopHeader ul {
     gap: 150px;
+    font-size: 17px;
   }
+
+.home-about .content p{
+  font-size: 17px;
+}
+.home-about .box-container .box p{
+  font-size: 17px;
+}
+.home-sqa .content p{
+  font-size: 17px;
+}
+.services .box-container .box p{
+  font-size: 17px;  
+}
+.leftText {
+  font-size: 17px;
+  
+}
+.home-buisness .row .content p {
+  font-size: 17px;
+}
+.home-buisness .box-container .box p{
+  font-size: 17px;
+}
+.footer .box-container .box span a{
+  font-size: 17px;
+}.footer .box-container .box span {
+  font-size: 17px;
+}
 
   .heading {
     font-size: 30px;
-  }
+  
+}
 }
 
 @media (max-width: 1200px) {

@@ -456,6 +456,23 @@ font-size: 12px;
   /* media queries  */
 
   /* media queries */
+    /* media queries */
+    @media (max-width: 1900px) {
+      .top-header .lefttopHeader ul {
+        font-size: 17px;
+      }
+      
+      .blogdetail .container .content {
+        font-size: 17px;
+      }
+ 
+  .footer .box-container .box span a{
+    font-size: 17px;
+  }
+  .footer .box-container .box span {
+    font-size: 17px;
+  }
+    }
   
   @media (max-width: 1580px) {
     .top-header{
