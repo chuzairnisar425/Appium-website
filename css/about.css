@@ -256,6 +256,9 @@ font-size: 12px;
   gap: 1rem;
 }
 .home-about .row .image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   flex: 1 1 45rem;
   padding: 1rem;
 }
@@ -998,6 +1001,7 @@ p {
       font-size: 5px;
     }
     .home-about .row .image {
+    
       flex: 1 0 42rem;
       padding: 1rem;
     }

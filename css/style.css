@@ -346,6 +346,8 @@ position: relative;
 }
 
 .home-about .row .image {
+  display: flex;
+  justify-content: center;
   flex: 1 1 45rem;
   padding: 1rem;
 }

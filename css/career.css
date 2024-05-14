@@ -231,14 +231,15 @@ font-size: 12px;
   gap: 3.5rem;
 }
 
-.career-card .box-container .box {
-  text-align: center;
-  border-radius: 10px;
-  padding: 1rem 2rem;
-  text-align: center;
-  transition: 0.3s linear;
-  cursor: pointer;
-  background-color: var(--grey);
+
+  .career-card .box-container .box {
+    margin-top: -132px;
+    border-radius: 10px;
+    padding: 3rem 2rem;
+    text-align: center;
+    transition: 0.3s linear;
+    cursor: pointer;
+    background-color: var(--grey);
 }
 .career-card .box-container .box i {
   font-size: 45px;
@@ -318,6 +319,9 @@ font-size: 12px;
   gap: 1rem;
 }
 .howtoApply.row .image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   flex: 1 1 45rem;
   padding: 1rem;
 }
@@ -750,7 +754,7 @@ font-size: 12px;
       padding: 0rem 0rem;
     }
     .career-card .box-container .box{
-      margin-bottom: 90px;
+      margin-bottom: 100px;
     }
     .header {
       font-size: 20px;

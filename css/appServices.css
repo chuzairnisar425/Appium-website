@@ -225,7 +225,7 @@ font-size: 12px;
 .career-card .box-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
-  gap: 3.5rem;
+  gap: 1.5rem;
 }
 
 .career-card .box-container .box {
@@ -772,6 +772,10 @@ rotate: 90deg;
   }
   
   @media (max-width: 768px) {
+    .welcome .welcomeheading{
+      font-size: 20px;
+      padding: 0rem 1rem;
+    }
     .details p{
       font-size: 12px;
     } .details i{
