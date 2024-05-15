@@ -343,16 +343,7 @@ font-size: 12px;
   color: var(--green);
 }
 
-.ourteam {
-  background-color: var(--grey);
-}
-.ourteam .team-content {
-  width: 100%;
-  font-size: 12px;
-  text-align: justify;
-  padding: 0 2rem;
-}
-
+/* Default styles */
 .members {
   text-align: center;
   display: grid;
@@ -361,6 +352,7 @@ font-size: 12px;
   justify-content: center;
   align-items: center;
 }
+
 .team-mem {
   margin: 8px;
 }
@@ -368,6 +360,7 @@ font-size: 12px;
 .team-mem .image {
   text-align: center;
 }
+
 .team-mem .image img {
   object-fit: inherit;
   filter: grayscale();
@@ -378,10 +371,6 @@ font-size: 12px;
   margin: 0px auto;
   margin-bottom: 10px;
 }
-.team-mem .image img:hover{
-filter: grayscale(0%);
-transform: scale(1.1);
-}
 
 .ourteam .members .team-mem h4,
 p {
@@ -390,8 +379,27 @@ p {
   margin: 7px;
   text-align: center;
 }
+
 .ourteam .members .team-mem h4 {
   color: var(--green);
+}
+
+.team-mem .image img:hover {
+  filter: grayscale(0%);
+  transform: scale(1.1);
+}
+
+/* Media query for screens 450px or less */
+@media only screen and (max-width: 450px) {
+  .members {
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); /* Adjusted column width */
+      gap: 1rem; /* Reduced gap */
+  }
+
+  .team-mem .image img {
+      width: 150px; /* Adjusted image width */
+      height: 150px; /* Adjusted image height */
+  }
 }
 
 .contact .heading-section {
