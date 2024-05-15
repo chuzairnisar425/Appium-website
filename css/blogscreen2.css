@@ -813,7 +813,20 @@ line-height: 2.2rem;
       display: block;
     }
   }
-
+  .map iframe {
+    width: 100%; /* Initially, set width to 100% */
+  }
+  
+  @media screen and (min-width: 768px) {
+    /* For tablets and larger screens, you can adjust the width as needed */
+    .map iframe {
+      width: 75%; /* Adjust this value as needed */
+    }
+  }
+  .top-header .lefttopHeader ul li a{
+    text-decoration: none;
+    color: var(--white);
+  }
   .loader {
     border: 8px solid #f3f3f3;
     border-radius: 50%;

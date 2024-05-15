@@ -345,6 +345,10 @@ font-size: 12px;
   text-align: center;
   cursor: pointer;
 }
+.top-header .lefttopHeader ul li a{
+  text-decoration: none;
+  color: var(--white);
+}
 .chooseService p a{
   color: var(--black);
   text-decoration: none;
@@ -353,6 +357,16 @@ font-size: 12px;
   background-color: var(--green);
   color: var(--black);
   border-radius: 10px;
+}
+.map iframe {
+  width: 100%; /* Initially, set width to 100% */
+}
+
+@media screen and (min-width: 768px) {
+  /* For tablets and larger screens, you can adjust the width as needed */
+  .map iframe {
+    width: 75%; /* Adjust this value as needed */
+  }
 }
 .chooseService p a:hover{
   color: var(--black);

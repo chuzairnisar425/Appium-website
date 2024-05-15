@@ -563,7 +563,20 @@ line-height: 2.2rem;
       font-size: 20px;
     }
   }
+  .map iframe {
+    width: 100%; /* Initially, set width to 100% */
+  }
   
+  @media screen and (min-width: 768px) {
+    /* For tablets and larger screens, you can adjust the width as needed */
+    .map iframe {
+      width: 75%; /* Adjust this value as needed */
+    }
+  }
+  .top-header .lefttopHeader ul li a{
+    text-decoration: none;
+    color: var(--white);
+  }
   @media (max-width: 926px) {
     .header {
       font-size: 20px;

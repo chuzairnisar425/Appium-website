@@ -754,6 +754,13 @@ text-align: center;}
     }
   }
   
+  
+  .top-header .lefttopHeader ul li a{
+    text-decoration: none;
+    color: var(--white);
+  }
+  
+  
   @media (max-width: 768px) {
     .Appointment .container{
       grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));

@@ -364,6 +364,22 @@ font-size: 12px;
   background-color: #ccc; /* Just for visualization */
 }
 
+.map iframe {
+  width: 100%; /* Initially, set width to 100% */
+}
+
+@media screen and (min-width: 768px) {
+  /* For tablets and larger screens, you can adjust the width as needed */
+  .map iframe {
+    width: 75%; /* Adjust this value as needed */
+  }
+}
+
+/* 
+.top-header .lefttopHeader ul li a{
+  text-decoration: none;
+  color: var(--white);
+}
 /* Optional styling for better visualization */
 .services .container {
   max-width: 1200px;
