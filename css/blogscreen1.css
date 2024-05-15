@@ -237,7 +237,7 @@ font-size: 12px;
     width: 50%;
 }
 .blogdetail .container .content{
-  font-size: 12px;
+  font-size: 17px;
   text-align:justify;
   margin-bottom: 20px;
   margin-top: 20px;
@@ -578,6 +578,9 @@ line-height: 2.2rem;
   }
   
   @media (max-width: 768px) {
+    .footer .box-container .box span a {
+      font-size: 12px;
+    }
     .Appointment .container{
       grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
     }

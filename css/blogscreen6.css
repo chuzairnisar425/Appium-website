@@ -578,6 +578,9 @@ line-height: 2.2rem;
   }
   
   @media (max-width: 768px) {
+    .footer .box-container .box span a {
+      font-size: 12px;
+    }
     .Appointment .container{
       grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
     }
