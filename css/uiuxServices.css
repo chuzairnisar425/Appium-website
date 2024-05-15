@@ -261,8 +261,6 @@ font-size: 12px;
 }
 
 .welcome {
-  line-height: 2.2rem;
-
   /* padding: 1rem 3rem; */
   margin-top: 20px;
 }
@@ -272,26 +270,26 @@ font-size: 12px;
   justify-content: center;
   align-items: center;
   font-size: 25px;
+  padding: 1rem;
   font-weight: bold;
 }
 
 .welcome p {
-  line-height: 2.2rem;
-
   border-left: 12px solid var(--green);
   margin-top: 10px;
   text-align: justify;
   font-size: 12px;
+  line-height: 2.2rem;
   padding-left: 3rem ;
   padding-right: 3rem ;
   margin-bottom: 20px;
 }
 .welcome1 p {
-  line-height: 2.2rem;
-
   border-right: 12px solid var(--green);
   margin-top: 10px;
   text-align: justify;
+  line-height: 2.2rem;
+
   font-size: 12px;
   padding-left: 3rem ;
   padding-right: 3rem ;
@@ -333,7 +331,7 @@ font-size: 12px;
 
 /* .services */
 
-.container {
+.services .container {
   display: flex;
 }
 
@@ -348,16 +346,16 @@ font-size: 12px;
   cursor: pointer;
 }
 .chooseService p a{
-  color: #228b22;
+  color: var(--black);
   text-decoration: none;
 }
 .chooseService p:nth-of-type(3) {
-  background-color: var(--black);
-  color: var(--white);
+  background-color: var(--green);
+  color: var(--black);
   border-radius: 10px;
 }
 .chooseService p a:hover{
-  color: yellowgreen;
+  color: var(--black);
   font-weight: bold;
 }
 
@@ -367,14 +365,13 @@ font-size: 12px;
 }
 
 /* Optional styling for better visualization */
-.container {
+.services .container {
   max-width: 1200px;
   margin: 0 auto;
   border: 1px solid #ddd;
   border-radius: 5px;
-  overflow: hidden; /* To contain floated elements */
+  overflow: hidden; 
 }
-
 img {
   max-width: 100%;
   height: auto;
@@ -478,18 +475,34 @@ rotate: 90deg;
   margin: 0;
 }
 
+
+
+.loader {
+  border: 8px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 12px solid var(--green);
+  width: 85px;
+  height: 85px;
+  animation: spin 1s linear infinite; /* Changed timing function to linear for smoother rotation */
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg); /* Changed 0turn to 0deg for consistency */
+  }
+  to {
+    transform: rotate(360deg); /* Changed 1turn to 360deg for consistency */
+  }
+}
+
+/* Added some styling for the loader wrapper */
 .loader-wrapper {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  background-color: rgba(255, 255, 255, 0.8);
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 9999;
+  height: 100vh; /* Adjust this according to your layout */
 }
+
 
 .gotopbtn {
   font-size: 22px;
@@ -517,19 +530,7 @@ rotate: 90deg;
   z-index: 1;
 }
 
-.loader {
-  border: 8px solid #f3f3f3;
-  border-radius: 50%;
-  border-top: 12px solid var(--green);
-  width: 85px;
-  height: 85px;
-  animation: spin ease infinite;
-}
 
-@keyframes spin {
-  from { transform: rotate(0turn); }
-  to { transform: rotate(1turn); }
-}
 
 
 
@@ -593,28 +594,7 @@ rotate: 90deg;
   color: rgb(6, 163, 111);
   text-decoration: none;
 }
-/* Appointment form  */
-.container{
 
-  display: grid;
- grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
- gap: 1.5rem;
-
- border-radius: 20px;
- /* width: 50%; */
- /* border: 2px solid red;  */
-}
-.container h3{
- color: var(--white);
- font-size: 2rem;
- /* padding-bottom: 1rem; */
-}
-.container .map{
- display:flex;
- justify-content: center;
- align-items: c;
- 
-}
 .footer .copyright .rightCopyright {
   float: right;
 }
@@ -641,16 +621,29 @@ rotate: 90deg;
   text-transform: none;
   border-radius: 4px;
 }
+/* Appointment form  */
+.Appointment .container{
 
-.footer .box-container .box span a{
-  color: var(--light-bg);
-  text-decoration: none;
+  display: grid;
+ grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+ gap: 1.5rem;
+
+ border-radius: 20px;
+ /* width: 50%; */
+ /* border: 2px solid red;  */
 }
-.footer .box-container .box span a:hover{
-  text-decoration: none;
-  font-weight:bold;
-  transition: font-weight 0.3s, transform 0.3s;
+.Appointment .container h3{
+ color: var(--white);
+ font-size: 2rem;
+ /* padding-bottom: 1rem; */
 }
+ .Appointment .container .map{
+ display:flex;
+ justify-content: center;
+ align-items: c;
+ 
+}
+
 .booking .book_form .flex .inputBox textarea {
   display: block;
   border: 2px solid black;
@@ -690,6 +683,15 @@ rotate: 90deg;
   float: right;
   margin-bottom: 20px;
 }
+.footer .box-container .box span a{
+  color: var(--light-bg);
+  text-decoration: none;
+}
+.footer .box-container .box span a:hover{
+  text-decoration: none;
+  font-weight:bold;
+  transition: font-weight 0.3s, transform 0.3s;
+}
 .follow h1 {
   font-size: 25px;
 }
@@ -715,8 +717,7 @@ rotate: 90deg;
   /* media queries  */
 
   /* media queries */
-
-
+  
   @media (max-width: 1900px) {
     .details p {
       font-size: 17px;
@@ -741,7 +742,7 @@ font-size: 17px;
       font-size: 17px;
     }
   }
-  
+
   @media (max-width: 1580px) {
     .top-header{
       /* justify-content: center; */
@@ -841,8 +842,6 @@ font-size: 17px;
       font-size: 12px;
     }
     .details p{
-
-
       font-size: 12px;
     } .details i{
       font-size: 12px;

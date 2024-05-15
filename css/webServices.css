@@ -331,7 +331,7 @@ font-size: 12px;
 
 /* .services */
 
-.container {
+.services .container {
   display: flex;
 }
 
@@ -346,16 +346,16 @@ font-size: 12px;
   cursor: pointer;
 }
 .chooseService p a{
-  color: #228b22;
+  color: var(--black);
   text-decoration: none;
 }
 .chooseService p:nth-of-type(1) {
-  background-color: var(--black);
-  color: var(--white);
+  background-color: var(--green);
+  color: var(--black);
   border-radius: 10px;
 }
 .chooseService p a:hover{
-  color: yellowgreen;
+  color: var(--black);
   font-weight: bold;
 }
 
@@ -365,14 +365,13 @@ font-size: 12px;
 }
 
 /* Optional styling for better visualization */
-.container {
+.services .container {
   max-width: 1200px;
   margin: 0 auto;
   border: 1px solid #ddd;
   border-radius: 5px;
-  overflow: hidden; /* To contain floated elements */
+  overflow: hidden; 
 }
-
 img {
   max-width: 100%;
   height: auto;
@@ -623,7 +622,7 @@ rotate: 90deg;
   border-radius: 4px;
 }
 /* Appointment form  */
-.container{
+.Appointment .container{
 
   display: grid;
  grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
@@ -633,12 +632,12 @@ rotate: 90deg;
  /* width: 50%; */
  /* border: 2px solid red;  */
 }
-.container h3{
+.Appointment .container h3{
  color: var(--white);
  font-size: 2rem;
  /* padding-bottom: 1rem; */
 }
-.container .map{
+ .Appointment .container .map{
  display:flex;
  justify-content: center;
  align-items: c;
