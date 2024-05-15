@@ -824,7 +824,7 @@ p {
   
   @media (max-width: 991px) {
     section {
-      padding: 1rem 0rem;
+      padding: 01rem 0rem;
     }
     .home .swiper-slide .content h3 {
       font-size: 25px;

@@ -778,7 +778,7 @@ font-size: 17px;
       font-size: 20px;
     }
     section {
-      padding: 1rem 2rem;
+      padding: 0rem 2rem;
     }
   }
   
@@ -799,7 +799,7 @@ font-size: 17px;
   
   @media (max-width: 991px) {
     section {
-      padding: 1rem 2rem;
+      padding: 0rem 2rem;
     }
     .home .swiper-slide .content h3 {
       font-size: 25px;
