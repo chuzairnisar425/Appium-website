@@ -241,9 +241,10 @@ font-size: 12px;
   text-align:justify;
   margin-bottom: 20px;
   margin-top: 20px;
-  line-height: 2.2rem;
 }
-
+.blogdetail .container .content p{
+line-height: 2.2rem;
+}
 
 .gotopbtn {
   font-size: 22px;
@@ -344,6 +345,28 @@ font-size: 12px;
     padding-right: 2rem;
   }
   
+  /* Appointment form  */
+  .Appointment .container{
+
+  display: grid;
+ grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+ gap: 1.5rem;
+
+ border-radius: 20px;
+ /* width: 50%; */
+ /* border: 2px solid red;  */
+}
+.Appointment .container h3{
+ color: var(--white);
+ font-size: 2rem;
+ /* padding-bottom: 1rem; */
+}
+.Appointment .container .map{
+ display:flex;
+ justify-content: center;
+ align-items: c;
+ 
+}
   .footer .copyright {
     text-align: start;
     padding-top: 3rem;
@@ -384,15 +407,6 @@ font-size: 12px;
     text-transform: none;
     border-radius: 4px;
   }
-  .footer .box-container .box span a{
-    color: var(--light-bg);
-    text-decoration: none;
-  }
-  .footer .box-container .box span a:hover{
-    text-decoration: none;
-    font-weight:bold;
-    transition: font-weight 0.3s, transform 0.3s;
-  }
   
   .booking .book_form .flex .inputBox textarea {
     display: block;
@@ -425,7 +439,15 @@ font-size: 12px;
     text-align: center;
     width: 150px;
   }
-  
+  .footer .box-container .box span a{
+    color: var(--light-bg);
+    text-decoration: none;
+  }
+  .footer .box-container .box span a:hover{
+    text-decoration: none;
+    font-weight:bold;
+    transition: font-weight 0.3s, transform 0.3s;
+  }
   .follow {
     display: flex;
     text-align: center;
@@ -456,25 +478,27 @@ font-size: 12px;
   /* media queries  */
 
   /* media queries */
-    /* media queries */
-    @media (max-width: 1900px) {
-      .top-header .lefttopHeader ul {
-        font-size: 17px;
-      }
-      
-      .blogdetail .container .content {
-        font-size: 17px;
-      }
- 
-  .footer .box-container .box span a{
-    font-size: 17px;
-  }
-  .footer .box-container .box span {
-    font-size: 17px;
-  }
+  @media (max-width: 1900px) {
+    .top-header .lefttopHeader ul {
+      font-size: 17px;
     }
-  
+    
+
+.blogdetail .container .content p{
+  font-size: 17px;
+}
+.footer .box-container .box span a{
+  font-size: 17px;
+}
+.footer .box-container .box span {
+  font-size: 17px;
+}
+  }
+
+
+
   @media (max-width: 1580px) {
+    
     .top-header{
       /* justify-content: center; */
     }
@@ -554,6 +578,12 @@ font-size: 12px;
   }
   
   @media (max-width: 768px) {
+    .Appointment .container{
+      grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+    }
+    .blogdetail .container .content p{
+      font-size: 12px;
+    }
     .top-header{
       display: none;
     }

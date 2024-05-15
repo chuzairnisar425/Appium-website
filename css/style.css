@@ -657,8 +657,8 @@ text-align: start;
   float: left;
   /* border-radius: 20px; */
   background-color: var(--blue);
-  border-top-left-radius: 40px;
-  border-bottom-left-radius: 40px;
+  border-top-left-radius: 24px;
+  border-bottom-left-radius: 24px;
 }
 .services .line{
   width: 30%;
@@ -1217,8 +1217,25 @@ font-size: 25px;
 }
 
 @media (max-width: 768px) {
+  .footer .box-container .box span a {
+    font-size: 12px;
+  }
+  .home-buisness .box-container .box p{
+    font-size: 12px;
+  }
+ 
+  .services .box-container .box p {
+    font-size: 12px;
+  }
+  .home-about .box-container .box p{
+    font-size: 12px;
+  }
   .container .appointmentcontent{
     margin-left: 0px;
+  }
+  .leftText {
+    font-size: 12px;
+
   }
   .heading {
     font-size: 20px;

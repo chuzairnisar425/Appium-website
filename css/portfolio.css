@@ -728,6 +728,12 @@ font-size: 25px;
   }
   
   @media (max-width: 768px) {
+    .Appointment .container{
+      grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+    }
+    .footer .box-container .box span a {
+      font-size: 12px;
+    } 
     .top-header{
       display: none;
     }

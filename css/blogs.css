@@ -364,7 +364,10 @@ text-align: center;}
 .blog .row .content,
 .blog .row .image {
   flex: 1; /* Equal flex distribution */
+
 }
+
+
 
 .blog .row .postingblogtime,
 .blog .row .righticons {
@@ -374,9 +377,14 @@ text-align: center;}
   align-items: center; /* Align children vertically */
 }
 
-.blog .row .image img {
-  width: 100%;
-  height: auto;
+.blog .row .image{
+  display: flex;
+  align-items: center;
+    justify-content: center;
+}.blog .row .image img {
+  width:700px;
+  height: 500px;
+  /* height: auto; */
 }
 
 /* Media query for responsiveness */
@@ -392,8 +400,7 @@ text-align: center;}
   }
 
   .blog .row .image img {
-    width: 100%;
-    height: 100%;
+  
     object-fit: cover; /* Maintain aspect ratio and cover container */
   }
 }
@@ -748,6 +755,27 @@ text-align: center;}
   }
   
   @media (max-width: 768px) {
+    .Appointment .container{
+      grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+    }
+    .blog .row .image img {
+      max-width:100%;
+      max-height: auto;
+      /* height: auto; */
+    }
+    .postingblogtime .iconscontent p {
+font-size: 5px;    }
+    .postingblogtime .iconscontent i {
+      color: var(--white);
+      font-size: 6px;
+      margin-right: 10px;
+    }
+    .footer .box-container .box span a {
+      font-size: 12px;
+    }
+    .news p{
+      font-size: 12px;
+    }
     .blog .content p{
       padding: 0rem 5px;
       font-size: 10px;

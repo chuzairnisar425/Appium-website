@@ -346,7 +346,7 @@ line-height: 2.2rem;
   }
   
   /* Appointment form  */
- .container{
+  .Appointment .container{
 
   display: grid;
  grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
@@ -356,12 +356,12 @@ line-height: 2.2rem;
  /* width: 50%; */
  /* border: 2px solid red;  */
 }
-.container h3{
+.Appointment .container h3{
  color: var(--white);
  font-size: 2rem;
  /* padding-bottom: 1rem; */
 }
-.container .map{
+.Appointment .container .map{
  display:flex;
  justify-content: center;
  align-items: c;
@@ -578,6 +578,12 @@ line-height: 2.2rem;
   }
   
   @media (max-width: 768px) {
+    .Appointment .container{
+      grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+    }
+    .blogdetail .container .content p{
+      font-size: 12px;
+    }
     .top-header{
       display: none;
     }
