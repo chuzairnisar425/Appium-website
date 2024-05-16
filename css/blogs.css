@@ -274,10 +274,12 @@ font-size: 12px;
   gap: 1rem;
 }
 .blog.row .image {
+  object-fit: contain   ;
   flex: 1 1 45rem;
   padding: 1rem;
 }
 .blog .row .image img {
+  object-fit: contain;
   width: 100%;
   border-radius: 0.5rem;
   /* border: 1rem solid #333;  */
@@ -762,9 +764,7 @@ text-align: center;}
   
   
   @media (max-width: 768px) {
-    .Appointment .container{
-      grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
-    }
+   
     .blog .row .image img {
       max-width:100%;
       max-height: auto;

@@ -837,9 +837,7 @@ font-size: 17px;
   }
   
   @media (max-width: 768px) {
-    .Appointment .container{
-      grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
-    }
+    
     .career-card .box-container .box p{
       font-size: 12px;
     }

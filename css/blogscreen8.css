@@ -582,9 +582,7 @@ line-height: 2.2rem;
     .footer .box-container .box span a {
       font-size: 12px;
     }
-    .Appointment .container{
-      grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
-    }
+   
     .blogdetail .container .content p{
       font-size: 12px;
     }
